@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://bizjapan.org/$1 [R=301,L]
+
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www.bizjapan.org$
+RewriteRule ^(.*)$ https://bizjapan.org/$1 [R=301,L]
