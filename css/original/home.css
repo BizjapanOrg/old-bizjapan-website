@@ -92,52 +92,52 @@
   bottom:20%;
   z-index:1;
 }
+/* Cross TalkのCSS */
+.crosstalk {
+  float: left;
+  width: 33%;
+}
+.crosstalk-icon {
+  position: relative;
+}
 
-/* ContactのCSS */
-.contact-wrapper {
-  background-color: #F5F5F5;
-}
-.contact-form{
-  font-family: Arial, Helvetica, "sans-serif";
-  padding-top:5.2vw;
-}
-.form-title{
-  padding-top: 10px;
-}
-input[type=text] {
-  border: 1px #D5D5D5;
-  border-radius: 9px;
-}
-input[type=email] {
-  border: 1px #D5D5D5;
-  border-radius: 9px;
-}
-#name-form {
-  height: 36px;
+.crosstalk-icon p {
+  position: absolute;
+  top: 44%;
   width: 100%;
+  color: white;
 }
-#mail-form {
-  height: 36px;
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+/* プロジェクト紹介のCSS*/
+.project {
+  float: left;
+  width: 33%;
+}
+.project-icon {
+  position: relative;
+}
+
+.project-icon p {
+  position: absolute;
+  top: 44%;
   width: 100%;
+  color: white;
 }
-#content-form {
-  height: 125px;
-  width: 100%;
-}
-.square_btn {
-    display: inline-block;
-    width:40px;
-    padding: 0.1em 1em;
-    margin: 1em auto;
-    text-decoration: none;
-    color: #9E9E9E;
-    border: solid 2px #9E9E9E;
-    border-radius: 5px;
-    transition: .4s;
-}
-.square_btn:hover {
-    background: #9E9E9E;
-    color: white;
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
 }
 
 @media(max-width:770px){
