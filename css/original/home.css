@@ -95,7 +95,7 @@
 /* Cross TalkのCSS */
 .crosstalk {
   float: left;
-  width: 33%;
+  width: 25%;
 }
 .crosstalk-icon {
   position: relative;
@@ -119,6 +119,7 @@
 /* プロジェクト紹介のCSS*/
 .project {
   float: left;
+  display:inline-block;
   width: 33%;
 }
 .project-icon {
@@ -134,7 +135,6 @@
 
 .text-contents {
   width: 80%;
-  display: inline-block;
   margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
