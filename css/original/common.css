@@ -41,7 +41,7 @@ header {
   margin-right:auto;
 }
 header .logo {
-  height: 45px;
+  height: 40px;
   padding: 9px 0;
 }
 .nav li {
@@ -89,6 +89,7 @@ header .logo {
   }
   .nav{
     height:100%;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
