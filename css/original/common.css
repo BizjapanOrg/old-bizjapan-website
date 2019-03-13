@@ -89,6 +89,7 @@ header .logo {
   }
   .nav{
     height:100%;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
