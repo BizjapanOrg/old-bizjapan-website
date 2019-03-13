@@ -49,6 +49,11 @@ header .logo {
   background: #9e9e9e;
   color: #fff;
 }
+@media (max-width: 870px) {
+  header .logo {
+    display: none;
+  }
+}
 @media (max-width: 770px) {
   header .logo {
     display: block;
@@ -145,6 +150,7 @@ header .logo {
     display: block;
   }
   .nav ul {
+    float: right;
     margin-top: 25px;
   }
   .nav li {
