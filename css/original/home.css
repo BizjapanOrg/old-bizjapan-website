@@ -93,6 +93,9 @@
   z-index:1;
 }
 /* Cross TalkのCSS */
+.crosstalk-wrapper{
+  position:relative;
+}
 .crosstalk {
   float: left;
   width: 25%;
@@ -117,8 +120,10 @@
 }
 
 /* プロジェクト紹介のCSS*/
+.projects-wrapper{
+  position:relative;
+}
 .project {
-  float: left;
   display:inline-block;
   width: 33%;
 }
