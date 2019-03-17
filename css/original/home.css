@@ -31,7 +31,7 @@
   z-index:1;
 }
 
-/* Our VissionのCSS */
+/* Our VisionのCSS */
 .ourvision-wrapper{
   position:relative;
 }
@@ -92,6 +92,37 @@
   bottom:20%;
   z-index:1;
 }
+/* プロジェクト紹介のCSS*/
+.home-project-wrapper {
+  position:relative;
+  background-color: #F5F5F5;
+  width: 100%;
+}
+.heading{
+  text-align:center;
+}
+.project {
+  float: left;
+  display: inline-block;
+  width: 33%;
+}
+.project-icon {
+  position: relative;
+}
+
+.project-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: #b3aeb5;
+}
+
+.text-contents {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+@charset "UTF-8";
 
 /* ContactのCSS */
 .contact-wrapper {
