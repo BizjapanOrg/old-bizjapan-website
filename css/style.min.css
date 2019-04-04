@@ -642,7 +642,7 @@ figure:hover figcaption {
 }
 .footer-wrapper {
   overflow: hidden;
-  margin: 5.86vw 7.81vw;
+  margin: 3.86vw 7.81vw;
   font-family: Arial, Helvetica, "sans-serif";
   position:relative;
 }
@@ -696,8 +696,17 @@ footer .logo {
   padding-bottom: 11px;
   display: list-item;
 }
-
-
+.sns-logo {
+  text-align: center;
+}
+.sns-logo img{
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.bizjapan-text{
+  padding-top: 60px;
+  text-align: center;
+}
 .language {
   padding: 0.1em 0.4em;
   border-radius: 5px;
