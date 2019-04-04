@@ -248,10 +248,11 @@ header a {
 
 /* FooterのCSS */
 footer {
-  background-color: #9E9E9E;
+  background-color: #707070;
   overflow:hidden;
   position: relative;
   height: 420px;
+   width:1280px;
 }
 footer .logo {
   position:absolute;
@@ -270,21 +271,33 @@ footer .logo {
   clear:both;
 }
 .nav-footer li {
-  padding-bottom: 16px;
+  padding-bottom: 11px;
   list-style: none;
   text-align: right;
 }
 .nav-footer a{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: right;
   text-decoration: none;
   color: #ffffff;
 }
 .copyright {
-  clear:both;
-  position: absolute;
-  bottom:40px;
-  width: 100%;
-  text-align: center;
-  font-family: Arial, Helvetica, "sans-serif";
+  width: 175px;
+  height: 17px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: right;
   color: #ffffff;
 }
 
