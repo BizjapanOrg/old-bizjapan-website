@@ -146,7 +146,7 @@
 }
 /*ContactのCSS*/
 .contact-wrapper {
-  background-color: #F5F5F5;
+  position:relative;
 }
 .contact-form{
   font-family: Arial, Helvetica, "sans-serif";
@@ -156,11 +156,11 @@
   padding-top: 10px;
 }
 input[type=text] {
-  border: 1px #D5D5D5;
+  border: 1px solid #D5D5D5;
   border-radius: 9px;
 }
 input[type=email] {
-  border: 1px #D5D5D5;
+  border: 1px solid #D5D5D5;
   border-radius: 9px;
 }
 #name-form {
@@ -179,17 +179,7 @@ input[type=email] {
   height: 125px;
   width: 100%;
 }
-.square_btn {
-    display: inline-block;
-    width:240px;
-    padding: 0.1em 1em;
-    margin: 1em auto;
-    text-decoration: none;
-    color: #9E9E9E;
-    border: solid 2px #9E9E9E;
-    border-radius: 5px;
-    transition: .4s;
-}
+
 .square_btn:hover {
     background: #9E9E9E;
     color: white;
