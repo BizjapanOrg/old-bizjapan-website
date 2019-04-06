@@ -256,33 +256,14 @@ footer {
   bottom: 0;
   z-index: 2;
 }
-#global,
-#global-mobile {
-  display: none;
-  width: 100%;
-  opacity: 0.3;
-  position: absolute;
-  bottom: 20%;
-  z-index: 1;
-}
 .ourvision-wrapper {
   position: relative;
   background-color: #ffffff;
 }
-#entrepreneurship,
-#entrepreneurship-mobile {
-  display: none;
-  opacity: 0.3;
-  width: 8.5%;
-  position: absolute;
-  top: 8%;
-  right: 10.156%;
-  z-index: 4;
-}
+
 .howwerun-content-top {
   position: relative;
 }
-.frompresident-wrapper,
 .whatwedo-wrapper {
   background-color: #ffffff;
   position: relative;

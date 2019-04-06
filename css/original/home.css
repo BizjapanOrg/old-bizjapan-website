@@ -64,30 +64,6 @@
   fill:white;
 }
 
-/* Cross TalkのCSS */
-.crosstalk {
-  float: left;
-  width: 25%;
-}
-.crosstalk-icon {
-  position: relative;
-}
-
-.crosstalk-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
 /* プロジェクト紹介のCSS*/
 .project {
   float: left;
