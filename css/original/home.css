@@ -65,8 +65,10 @@
 }
 
 /* プロジェクト紹介のCSS*/
+.projects-wrapper{
+  position:relative;
+}
 .project {
-  float: left;
   display:inline-block;
   width: 33%;
 }
@@ -86,6 +88,46 @@
   margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
+}
+/*ContactのCSS*/
+.contact-wrapper {
+  position:relative;
+}
+.contact-form{
+  font-family: Arial, Helvetica, "sans-serif";
+  padding-top:5.2vw;
+}
+.form-title{
+  padding-top: 10px;
+}
+input[type=text] {
+  border: 1px solid #D5D5D5;
+  border-radius: 9px;
+}
+input[type=email] {
+  border: 1px solid #D5D5D5;
+  border-radius: 9px;
+}
+#name-form {
+  height: 36px;
+  width: 45%;
+}
+#mail-form {
+  height: 36px;
+  width: 55%;
+}
+#company-organization-form {
+  height: 36px;
+  width: 75%;
+}
+#content-form {
+  height: 125px;
+  width: 100%;
+}
+
+.square_btn:hover {
+    background: #9E9E9E;
+    color: white;
 }
 
 @media(max-width:770px){
