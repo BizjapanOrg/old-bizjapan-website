@@ -308,20 +308,10 @@ h2{
   padding:0 0 44px 0;
   z-index: 100;
 }
-#entrepreneurship,
-#entrepreneurship-mobile {
-  display: none;
-  opacity: 0.3;
-  width: 8.5%;
-  position: absolute;
-  top: 8%;
-  right: 10.156%;
-  z-index: 4;
-}
+
 .howwerun-content-top {
   position: relative;
 }
-.frompresident-wrapper,
 .whatwedo-wrapper {
   background-color: #ffffff;
   position: relative;
@@ -348,32 +338,6 @@ h2{
 }
 .whatwedo-title {
   fill: #fff;
-}
-.frompresident-text {
-  padding: 0 0 70px;
-  width: 70%;
-  margin-left: auto;
-  margin-right: 0;
-  position: relative;
-  z-index: 100;
-}
-#takuma,
-#takuma-mobile {
-  display: none;
-  width: 55%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: 2;
-}
-#platform,
-#platform-mobile {
-  display: none;
-  width: 100%;
-  opacity: 0.3;
-  position: absolute;
-  bottom: 20%;
-  z-index: 1;
 }
 .contact-form {
   padding-top: 5.2vw;
@@ -410,10 +374,6 @@ input[type="text"] {
   background-color: #FFFFFF;
 }
 @media (max-width: 770px) {
-  #entrepreneurship-mobile,
-  #global-mobile,
-  #platform-mobile,
-  #takuma-mobile,
   #takuno-mobile {
     display: block;
   }
@@ -422,10 +382,6 @@ input[type="text"] {
   }
 }
 @media (min-width: 770px) {
-  #entrepreneurship,
-  #global,
-  #platform,
-  #takuma,
   #takuno {
     display: block;
   }
