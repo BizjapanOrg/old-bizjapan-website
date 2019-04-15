@@ -4,6 +4,7 @@
 .aboutus-wrapper {
   position:relative;
   background-color: #F5F5F5;
+  background-color: #FFFFFF;
   width: 100%;
 }
 .aboutus-text{
@@ -31,20 +32,20 @@
   z-index:1;
 }
 
-/* Our VissionのCSS */
-.ourvision-wrapper{
+/* Our valueのCSS */
+.ourvalue-wrapper{
   position:relative;
+  background-color: #FFFFFF;
+  width:100%;
 }
-#entrepreneurship, #entrepreneurship-mobile {
-  display: none;
-  opacity:0.7;
-  width: 8.5%;
-  position:absolute;
-  top:8%;
-  right:10.156%;
-  z-index:4;
+.ourvalue-text{
+  position:relative;
+  padding:0 0 44px 0;
+  width:70%;
+  margin-left:0;
+  margin-right:auto;
+  z-index: 100;  
 }
-
 /* What We DoのCSS */
 .whatwedo-wrapper {
   background: url(../img/groupphoto.jpg) no-repeat center;
@@ -62,61 +63,6 @@
 }
 .whatwedo-title{
   fill:white;
-}
-
-/* From PresidentのCSS */
-.frompresident-wrapper{
-  position:relative;
-}
-.frompresident-text{
-  padding:0 0 70px 0;
-  width:70%;
-  margin-left:auto;
-  margin-right:0;
-  position: relative;
-  z-index: 100;
-}
-#takuma, #takuma-mobile {
-  display: none;
-  width: 55%;
-  position: absolute;
-  left:0;
-  bottom:0;
-  z-index:2;
-}
-#platform, #platform-mobile{
-  display: none;
-  width: 100%;
-  opacity: 0.3;
-  position:absolute;
-  bottom:20%;
-  z-index:1;
-}
-/* Cross TalkのCSS */
-.crosstalk-wrapper{
-  position:relative;
-}
-.crosstalk {
-  float: left;
-  width: 25%;
-}
-.crosstalk-icon {
-  position: relative;
-}
-
-.crosstalk-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
 }
 
 /* プロジェクト紹介のCSS*/
@@ -143,6 +89,46 @@
   margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
+}
+/*ContactのCSS*/
+.contact-wrapper {
+  position:relative;
+}
+.contact-form{
+  font-family: Arial, Helvetica, "sans-serif";
+  padding-top:5.2vw;
+}
+.form-title{
+  padding-top: 10px;
+}
+input[type=text] {
+  border: 1px solid #D5D5D5;
+  border-radius: 9px;
+}
+input[type=email] {
+  border: 1px solid #D5D5D5;
+  border-radius: 9px;
+}
+#name-form {
+  height: 36px;
+  width: 45%;
+}
+#mail-form {
+  height: 36px;
+  width: 55%;
+}
+#company-organization-form {
+  height: 36px;
+  width: 75%;
+}
+#content-form {
+  height: 125px;
+  width: 100%;
+}
+
+.square_btn:hover {
+    background: #9E9E9E;
+    color: white;
 }
 
 @media(max-width:770px){
