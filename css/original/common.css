@@ -253,7 +253,7 @@ footer {
   overflow:hidden;
   position: relative;
   height: 420px;
-  width:1280px;
+   width:1280px;
 }
 footer .logo {
   position:absolute;
@@ -277,6 +277,14 @@ footer .logo {
   text-align: right;
 }
 .nav-footer a{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: right;
   text-decoration: none;
   font-family: Arial;
   font-size: 16px;
