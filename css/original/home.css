@@ -32,6 +32,7 @@ header li{
 .aboutus-wrapper {
   position:relative;
   background-color: #F5F5F5;
+  background-color: #FFFFFF;
   width: 100%;
 }
 .aboutus-text{
@@ -51,11 +52,21 @@ header li{
   z-index:2;
 }
 
-/* Our VisionのCSS */
-.ourvision-wrapper{
-  position:relative;
-}
 
+/* Our valueのCSS */
+.ourvalue-wrapper{
+  position:relative;
+  background-color: #FFFFFF;
+  width:100%;
+}
+.ourvalue-text{
+  position:relative;
+  padding:0 0 44px 0;
+  width:70%;
+  margin-left:0;
+  margin-right:auto;
+  z-index: 100;  
+}
 /* What We DoのCSS */
 .whatwedo-wrapper {
   background: url(../img/groupphoto.jpg) no-repeat center;
@@ -167,22 +178,11 @@ h2 {
   font-size: 11px;
 }
 
-/* From PresidentのCSS */
-.frompresident-wrapper{
+/* プロジェクト紹介のCSS*/
+.projects-wrapper{
   position:relative;
 }
-.frompresident-text{
-  padding:0 0 70px 0;
-  width:70%;
-  margin-left:auto;
-  margin-right:0;
-  position: relative;
-  z-index: 100;
-}
-
-/* プロジェクト紹介のCSS*/
 .project {
-  float: left;
   display:inline-block;
   width: 33%;
 }
@@ -196,12 +196,52 @@ h2 {
   width: 100%;
   color: white;
 }
-
 .text-contents {
   width: 80%;
   margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
+}
+
+/*ContactのCSS*/
+.contact-wrapper {
+  position:relative;
+}
+.contact-form{
+  font-family: Arial, Helvetica, "sans-serif";
+  padding-top:5.2vw;
+}
+.form-title{
+  padding-top: 10px;
+}
+input[type=text] {
+  border: 1px solid #D5D5D5;
+  border-radius: 9px;
+}
+input[type=email] {
+  border: 1px solid #D5D5D5;
+  border-radius: 9px;
+}
+#name-form {
+  height: 36px;
+  width: 45%;
+}
+#mail-form {
+  height: 36px;
+  width: 55%;
+}
+#company-organization-form {
+  height: 36px;
+  width: 75%;
+}
+#content-form {
+  height: 125px;
+  width: 100%;
+}
+
+.square_btn:hover {
+    background: #9E9E9E;
+    color: white;
 }
 
 @media(max-width:770px){
