@@ -530,6 +530,37 @@ figcaption div {
 .project-name a {
   color: #707070;
 }
+.content-title{
+  font-size:2.8em;
+  font-family: DIN alternate;
+  
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-right:auto;
+  margin-left:auto;
+  
+
+}
+
+.projectwithstories-wrapper{
+  width: 100%;
+  opacity: 0.85;
+  border: solid 1px #707070;
+  background-color: #000000; 
+  background-image: linear-gradient(90deg, hsla(301, 81%, 25%, 50%),hsla(355, 99%, 42%, 50%));
+}
+.projects-specific-container{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 0 auto;
+}
 figure:hover figcaption {
   opacity: 1;
 }
@@ -568,7 +599,6 @@ figure:hover figcaption {
 
 .project-discription {
   width: 190px;
-  height: 180px;
   font-size: 12px;
   font-weight: 500;
   font-style: normal;
@@ -582,6 +612,20 @@ figure:hover figcaption {
   margin-top: 0;
   font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
     "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.project-detail{
+  height: 14px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  padding-top:60px;
+  padding-left:36px;
+  color: #73abff;
 }
 .pastprojects-wrapper {
   background-color: #f5f5f5;
