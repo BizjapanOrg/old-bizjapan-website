@@ -24,7 +24,8 @@
       href="./contact/mfp.statics/mailformpro.css"
       type="text/css"
     />
-    <link rel="stylesheet" type="text/css" href="./css/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/original/home.css" />
+    <link rel="stylesheet" type="text/css" href="./css/original/common.css"/>
 
     <title>Bizjapan</title>
   </head>
@@ -80,9 +81,6 @@
             <p>
               既成の枠にとらわれない「Global」な視点と新たな解決策を探り実行する「Entrepreneurship」をもって、メンバーそれぞれが興味関心に従ってプロジェクトを立ち上げ、実行しています。
             </p>
-            <div class="know-more">
-              <a class="know-more-tag fadelink" href="./about/">> もっと知る</a>
-            </div>
           </div>
           <img
             src="./img/takuno_gradation.png"
@@ -92,194 +90,165 @@
           />
           <img src="./img/takuno_gradation.png" id="takuno-mobile" />
         </div>
-        <!--
-          imgの上辺が画面の下部にきたら動き出し、imgの中央が画面の中央にきたら止まる。
-        -->
-        <img
-          src="./img/SVG/global.svg"
-          id="global"
-          data-bottom-top="left: 6%;"
-          data-bottom-bottom="left: 0%;"
-        />
-        <img src="./img/SVG/global.svg" id="global-mobile" />
       </div>
 
-      <!-- our vision -->
-      <div class="ourvision-wrapper">
+      <!-- our values -->
+      <div class="ourvalues-wrapper">
         <div class="content-wrapper">
-          <img src="./img/SVG/ourvision.svg" class="title title-effect" />
+          <h2 class="title title-effect ourvalues-title">Our Values</h2>
           <img src="./img/SVG/pulse.svg" class="pulse" />
-          <div class="text">
+          <div class="text ourvalues-text">
+            <h3>GLOBAL</h3>
             <p>
-              Bizjapanでは個々のプロジェクトがそれぞれオリジナルのビジョンを持って企画・実行されています。
+              Bizjapanの「グローバル」は、「国際交流」にとどまりません。国の境、分野の境、年齢の境、ジェンダーの境、大学の境、文化の境。私たちはそれら全ての「境」を越えて集い、それら「境」を越えて共創し、それら「境」を越えて社会にインパクトを与えていきます。
             </p>
+            <h3>ENTREPRENEURSHIP</h3>
             <p>
-              Bizjapanとして共通しているのは「Start with impulse, Finish with
-              impact
-              ―衝動に従って行動し、最後にはインパクトを社会に残そう―」という高い志です。
-            </p>
-            <p>
-              そのような高い志を持ったメンバーが行動を起こし、そのメンバーにしかできない方法で社会を変えていく。Bizjapanはそんな行動を支援するプラットフォームとして働きます。
+              Bizjapanの「アントレプレナーシップ」は、「起業家精神」ではありません。それは、「パッション」と「新しさ」からなる精神であり、社会にインパクトを与えようとする者に宿るものである、と私たちは考えます。周囲の共感、社会的意義、継続的モデル、リソースの循環― 社会へのインパクトは、全てここから始まります。
             </p>
           </div>
         </div>
-        <!--
-          imgの上辺が画面の下部にきたら動き出し、imgの中央が画面の中央にきたら止まる。
-        -->
-        <img
-          src="./img/SVG/enterpreneurship.svg"
-          id="entrepreneurship"
-          data-bottom-top="top: -20%;"
-          data-center-center="top: 14%;"
-        />
-        <img
-          src="./img/SVG/enterpreneurship.svg"
-          id="entrepreneurship-mobile"
-        />
       </div>
 
-      <!-- what we do -->
-      <div class="whatwedo-wrapper">
-        <div class="mask">
-          <div class="content-wrapper">
-            <div class="box">
-              <img
-                src="./img/SVG/whatwedo.svg"
-                class="title title-effect whatwedo-title title-effect"
-              />
-              <img src="./img/SVG/pulse.svg" class="pulse" />
-              <div class="text  whatwedo-text">
-                <p>
-                  既成の枠にとらわれない「Global」な視点と新たな解決策を探り実行する「Entrepreneurship」をもって、メンバーそれぞれが持つ興味関心の中でプロジェクトを実行しています。
-                </p>
-                <p>
-                  プロジェクトの分野は留学生の就職問題解決、宇宙医学の普及、石窯ピザのR&Dなど多岐にわたり、これまでにない視点のものを多く扱っています。
-                </p>
-                <div class="know-more">
-                  <a
-                    class="know-more-tag know-more-whatwedo fadelink"
-                    href="./projects/"
-                    >> もっと知る</a
-                  >
-                </div>
-              </div>
+      <!--projects platform -->
+      <div class="pj-platform-wrapper">
+        <div class="content-wrapper">
+          <h2 class="title title-effect pj-platform-title">Projects Platform</h2>
+          <img src="./img/SVG/pulse.svg" class="pulse" />
+          <div class="pj-platform-container">
+            <div class="project-example">
+      				<figure>
+                <img class="project-image" src="./img/projects/mxspace.png">
+      				</figure>
+              <p class="project-name">M x Space</p>
+              <p class="project-discription">「QOSL(Quality Of Space Life)が保証される世界」の実現を目指し、春・夏の長期休暇中に宇宙医学スタディツアーを開催している。</p>
+              <p id="mxspace-show">Know more about this project</p>
+            </div>
+
+            <div class="project-example">
+              <figure>
+                <img class="project-image" src="./img/projects/jumpjapan.png">
+              </figure>
+              <p class="project-name">Jump Japan</p>
+              <p class="project-discription">海外学生に日本留学・就職のリアルを知ってもらう。</p>
+              <p div id="jj-show">Know more about this project</p>
+            </div>
+
+            <div class="project-example">
+      				<figure>
+              	<img class="project-image" src="./img/projects/nichy.png">
+              </figure>
+              <p class="project-name">Nichy</p>
+              <p class="project-discription">日中交流に興味ある方の交流会や、中国系企業の方、日中文化交流に携わっている方を招いての講演会を行っている。</p>
+              <p div id="nichy-show">Know more about this project</p>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- from president -->
-      <div class="frompresident-wrapper">
-        <div class="content-wrapper">
-          <img src="./img/SVG/frompresident.svg" class="title title-effect" />
-          <img src="./img/SVG/pulse.svg" class="pulse" />
-          <div class="text frompresident-text">
-            <p>
-              Bizjapanの最大の魅力は、メンバーの切れ味、エネルギー、そして多様性です。
-            </p>
-            <p>
-              メンバーはバックグラウンドも趣向も価値観も異なり、今にも散り散りになってしまいそうなのに、なぜか一つの組織としてまとまっています。その意味でBizjapanはパンパンに膨らんだ風船のようなものであり、エネルギーに溢れた団体です。
-            </p>
+          <div class="know-more">
+            <button class="square_btn"
+                href="./projects/"> 他のプロジェクトを見る
+            </button>
           </div>
         </div>
-        <img
-          src="./img/takuma_gradation.png"
-          id="takuma"
-          data-bottom-top="left: 1.5%;"
-          data-center-top="left: -7%;"
-        />
-        <img src="./img/takuma_gradation.png" id="takuma-mobile" />
-        <img
-          src="./img/SVG/platform.svg"
-          alt=""
-          id="platform"
-          data-bottom-top="right: 6%;"
-          data-center-top="right: 0%;"
-        />
-        <img src="./img/SVG/platform.svg" alt="" id="platform-mobile" />
       </div>
     </div>
-    <!-- Cross Talk -->
-    <div class="home-crosstalk-wrapper">
-      <div class="crosstalks">
-        <div class="crosstalk">
-          <div class="crosstalk-icon">
-            <img src="">
-            <p></p>
-          </div>
-          <p class="text-contents"></p>
-        </div>
-        <div class="crosstalk">
-          <div class="crosstalk-icon">
-            <img src="">
-            <p>Coming Soon!</p>
-          </div>
-          <p class="text-contents"></p>
-        </div>
-        <div class="crosstalk">
-          <div class="crosstalk-icon">
-            <img src="">
-            <p>Coming Soon!</p>
-          </div>
-          <p class="text-contents"></p>
-        </div>
-        <div class="crosstalk">
-          <div class="crosstalk-icon">
-            <img src="">
-            <p>Coming Soon!</p>
-          </div>
-          <p class="text-contents"></p>
-        </div>
-      </div>
-
-
-      <div class="know-more">
-        <a
-          class="know-more-tag know-more-crosstalk fadelink"
-          href="./crosstalk/"
-          >> もっと知る</a
-          >
-      </div>
-    </div>
-
+    
     <!--プロジェクト紹介 -->
-    <div class="home-project-wrapper">
-      <div class="heading">
-        <h2>Projects</h2>
-      </div>
-      <div class="projects">
-        <div class="project">
-          <div class="project-icon">
-            <img src="./img/projects/jumpjapan.png">
-            <p>Jump Japan</p>
+    <div class="projects-wrapper">
+      <div class="content-wrapper">
+          <img
+          src="./img/SVG/projects.svg"
+          class="title title-effect whatwedo-title title-effect"
+        />
+        <img src="./img/SVG/pulse.svg" class="pulse" />
+        <div class="projects">
+          <div class="project">
+            <div class="project-icon">
+              <img src="./img/projects/jumpjapan.png">
+              <p>Jump Japan</p>
+            </div>
+            <p class="text-contents">海外では日本語学習者や日本に興味を抱く学生が多いにも関わらず、実際に日本留学する人は多くない。その原因の一つである情報不足を解消するため、日本留学に関する生の情報を提供し、日本の大学における留学生の増加を目指す。</p>
           </div>
-          <p class="text-contents">海外では日本語学習者や日本に興味を抱く学生が多いにも関わらず、実際に日本留学する人は多くない。その原因の一つである情報不足を解消するため、日本留学に関する生の情報を提供し、日本の大学における留学生の増加を目指す。</p>
-        </div>
-        <div class="project">
-          <div class="project-icon">
-            <img src="./img/projects/mxspace.png">
-            <p>MxSpace</p>
+          <div class="project">
+            <div class="project-icon">
+              <img src="./img/projects/mxspace.png">
+              <p>MxSpace</p>
+            </div>
+            <p class="text-contents">「QOSL(Quality Of Space Life)が保証される世界」の実現を目指す。宇宙医療は来たる宇宙旅行時代に不可欠であるにも関わらず、宇宙医学は認知度が低く裾野が狭い。その問題に対し、将来の人材育成と、現在の人材交流からアプローチする。</p>
           </div>
-          <p class="text-contents">「QOSL(Quality Of Space Life)が保証される世界」の実現を目指す。宇宙医療は来たる宇宙旅行時代に不可欠であるにも関わらず、宇宙医学は認知度が低く裾野が狭い。その問題に対し、将来の人材育成と、現在の人材交流からアプローチする。</p>
-        </div>
-        <div class="project">
-          <div class="project-icon">
-            <img src="./img/projects/nichy.png">
-            <p>Nichy</p>
+          <div class="project">
+            <div class="project-icon">
+              <img src="./img/projects/nichy.png">
+              <p>Nichy</p>
+            </div>
+            <p class="text-contents">日本の大学生と中国企業を繋げることによって、日本と中国の人ベースにおける交流を促す。</p>
           </div>
-          <p class="text-contents">日本の大学生と中国企業を繋げることによって、日本と中国の人ベースにおける交流を促す。</p>
-        </div>
 
 
-      <div class="know-more">
-        <a
-          class="know-more-tag know-more-projects fadelink"
-          href="./projects/"
-          >> もっと知る</a
-        >
+        <div class="know-more">
+          <a
+            class="know-more-tag know-more-projects fadelink"
+            href="./projects/"
+            > もっと知る</a
+          >
+        </div>
       </div>
     </div>
 
+    <!--Contact-->
+    <div class="contact-wrapper">
+      <div class="content-wrapper">
+        <img src="./img/SVG/contact.svg" class="title title-effect" />
+        <p class="text contact-p">
+          自動で返信メールをお送りいたします。もしも返信メールが送られてこない場合は、<a
+            class="know-more-tag know-more-tag-join"
+            href="mailto:info&#64;bizjapan.com"
+            >こちら</a
+          >よりお問い合わせください。
+        </p>
+
+        <form id="mailformpro">
+          <p class="text">NAME</p>
+          <input
+            type="text"
+            name="name"
+            id="name-form"
+            required="required"
+          />
+          <p class="text">MAIL ADDRESS</p>
+          <input
+            type="email"
+            name="email"
+            id="mail-form"
+            required="required"
+          />
+          <p class="text">COMPANY/ORGANIZATION</p>
+          <input
+            type="text"
+            name="company/organization"
+            id="company-organization-form"
+            required="required"
+          />
+          <p class="text">CONTENT</p>
+          <textarea
+            name="contents"
+            id="textarea"
+            required="required"
+          ></textarea>
+          <button
+            type="submit"
+            class="square_btn"
+            style="
+            width:230px;
+            height:40px;">送信
+          </button>
+        </form>
+        <script
+          src="./contact/mailformpro/mailformpro.cgi"
+          id="mfpjs"
+        ></script>
+      </div>
+    </div>
+  </div>
     <!-- メインここまで -->
 
     <!-- フッターここから -->
