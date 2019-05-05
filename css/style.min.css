@@ -669,6 +669,7 @@ figure:hover figcaption {
   box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
   margin:0 30px 96px 30px;
+
 }
 @media (max-width: 770px) {
   .project-example{
@@ -679,6 +680,7 @@ figure:hover figcaption {
      margin:0 20px 40px 20px;
    }
 }
+
 
 .project-name {
   padding: 20px 20px;
@@ -696,6 +698,9 @@ figure:hover figcaption {
 
 .project-discription {
   width: 190px;
+
+  height: 180px;
+
   font-size: 12px;
   font-weight: 500;
   font-style: normal;
@@ -709,6 +714,7 @@ figure:hover figcaption {
   margin-top: 0;
   font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
     "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
 }
 .project-detail{
   height: 14px;
@@ -723,6 +729,7 @@ figure:hover figcaption {
   padding-top:60px;
   padding-left:36px;
   color: #73abff;
+
 }
 .pastprojects-wrapper {
   background-color: #f5f5f5;
