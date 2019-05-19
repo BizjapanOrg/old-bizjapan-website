@@ -241,6 +241,14 @@ header a {
   padding:7.81% 0;
   position:static;
 }
+@media(max-width:770px){
+  .content-wrapper{
+    width: 80%;
+  }
+  .partners-container{
+    margin: 80px 0 0 0;
+  }
+}
 .content-wrapper-2{
   min-width: 260px;
   width:42%;
