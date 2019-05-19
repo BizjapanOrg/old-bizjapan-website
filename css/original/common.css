@@ -189,6 +189,10 @@ header .logo {
     font-size: 16px;
   }
 }
+header li{
+  text-decoration: none;
+  color: #707070;
+}
 header a {
   text-decoration: none;
   color: #707070;
@@ -206,12 +210,35 @@ header a {
   height:auto;
   vertical-align: bottom;
 }
+.copyright,
+.nav-footer ul {
+  clear: both;
+}
+.nav-footer,
+.pulse,
+.text,
+.title,
+.title-big {
+  display: block;
+}
+.content-wrapper,
+.pulse,
+.text,
+.title,
+.title-big {
+  margin-right: auto;
+  margin-left: auto;
+}
+.copyright,
+.copyright p {
+  color: #fff;
+}
+
 .content-wrapper{
   box-sizing:border-box;
   min-width: 260px;
   width:65%;
   padding:7.81% 0;
-  margin:auto;
   position:static;
 }
 .content-wrapper-2{
