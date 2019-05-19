@@ -27,8 +27,29 @@ header {
   margin-right: auto;
 }
 header .logo {
-  height: 45px;
-  padding: 9px 0;
+  width: 27.5px;
+  height: 38.7px;
+  object-fit: contain;
+  padding-top:10px;
+  padding-left:40px;
+}
+.header-area-left p{
+  width: 72px;
+  height: 25px;
+  font-family:DIN alternate;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  padding-left: 12px;
+}
+.header-area-left a{
+  display: inline-block;
+  float:left;
 }
 .nav li {
   font-family: Arial, Helvetica, sans-serif;
@@ -155,7 +176,7 @@ header .logo {
   }
   .nav li {
     float: left;
-    padding-left: 26.2px;
+    padding-left: 45px;
   }
   .toggle {
     display: none;
@@ -226,11 +247,12 @@ header a {
 }
 
 .text {
-  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+  font-family: "游ゴシック体", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
     "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   color: #4b4b4b;
   width: 100%;
   line-height: 26px;
+
 }
 .contact-form,
 .copyright,
@@ -252,7 +274,9 @@ header a {
   padding: 5.46vw 0 4.68vw;
 }
 footer {
-  background-color: #9e9e9e;
+  background-color: #707070;
+  width:100%;
+  height: 444px;
   overflow: hidden;
   position: relative;
 }
@@ -522,8 +546,11 @@ input[type="text"] {
 }
 .project-image {
   width: 100%;
-  max-width: 200px;
-  height: auto;
+  object-fit: cover;
+  border-style: solid;
+  height:100%;
+  max-width: 230px;
+  border-radius: 20px 20px 0 0;
   padding: 0;
   margin: 0;
   border: solid 1px #f5f5f5;
@@ -571,8 +598,8 @@ figcaption {
   top: 0;
   left: 0;
   z-index: 2;
-  width: 200px;
-  height: 142px;
+  width: 230px;
+  height: 160.5px;
   background: rgba(0, 0, 0, 0.6);
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -591,27 +618,118 @@ figcaption {
   height: auto;
   box-sizing: border-box;
 }
+figcaption div {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+.project-name,
+.project-name a {
+  color: #707070;
+}
+.content-title{
+  font-size:2.8em;
+  font-family: DIN alternate;
+  
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-right:auto;
+  margin-left:auto;
+  
+
+}
+
+.projectwithstories-wrapper{
+  width: 100%;
+  opacity: 0.85;
+  border: solid 1px #707070;
+  background-color: #000000; 
+  background-image: linear-gradient(90deg, hsla(301, 81%, 25%, 50%),hsla(355, 99%, 42%, 50%));
+}
+.projects-specific-container{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 0 auto;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
 .project-example {
-  width: 225px;
-  padding: 0 8px;
   text-align: left;
+  width: 230px;
+  height: 345px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin:0 30px 96px 30px;
+
 }
+@media (max-width: 770px) {
+  .project-example{
+     margin:0 20px 40px 20px; }
+}
+@media (min-width: 770px) {
+  .project-example{
+     margin:0 20px 40px 20px;
+   }
+}
+
+
 .project-name {
-  text-align: left;
-  padding: 8px 0;
+  padding: 20px 20px;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-.project-discription {
+  font-family: DIN Alternate,Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
   text-align: left;
-  padding: 0;
+  color: #000000;
+}
+
+.project-discription {
+  width: 190px;
+
+  height: 180px;
+
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  position: absolute;
+  color: #707070;
+  padding: 4px 20px;
   margin-top: 0;
-  margin-bottom: 40px;
   font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
     "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  font-size: 10px;
-  color: #444;
+
+}
+.project-detail{
+  height: 14px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  padding-top:60px;
+  padding-left:36px;
+  color: #73abff;
+
 }
 .pastprojects-wrapper {
   background-color: #f5f5f5;
@@ -725,37 +843,73 @@ figcaption {
 }
 .footer-wrapper {
   overflow: hidden;
-  margin: 5.86vw 7.81vw;
+  margin: 3.86vw 7.81vw;
+  font-family: Arial, Helvetica, "sans-serif";
+  position:relative;
 }
 .footer-wrapper-left {
   float: left;
+}
+.copyright {
+  width: 175px;
+  height: 17px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: right;
+  color: #ffffff;
 }
 footer .logo {
   height: 48px;
 }
 .nav-footer {
+  display: flex;
   float: right;
+
 }
 .nav-footer li {
-  padding-bottom: 16px;
   list-style: none;
-  text-align: right;
+  text-align: left;
+  float:none;
+
+
 }
 .nav-footer a {
   text-decoration: none;
   color: #fff;
-}
-.copyright {
-  clear: both;
-  display: block;
-  text-align: center;
+
+
 }
 .nav-footer a {
   font-size: 16px;
+  font-family: Arial;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding-right: 72px;
+  padding-bottom: 11px;
+  display: list-item;
+}
+.sns-logo {
+  text-align: center;
+}
+.sns-logo img{
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.bizjapan-text{
+  padding-top: 60px;
+  text-align: center;
 }
 .language {
-  padding: 0.1em 0.4em;
-  border-radius: 5px;
+  padding: 3px 6px;
   transition: 0.4s;
   background: #9e9e9e;
   color: #fff !important;
