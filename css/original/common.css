@@ -41,7 +41,7 @@ header {
   margin-right:auto;
 }
 header .logo {
-  height: 45px;
+  height: 40px;
   padding: 9px 0;
 }
 .nav li {
@@ -89,6 +89,7 @@ header .logo {
   }
   .nav{
     height:100%;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,6 +189,10 @@ header .logo {
     font-size: 16px;
   }
 }
+header li{
+  text-decoration: none;
+  color: #707070;
+}
 header a {
   text-decoration: none;
   color: #707070;
@@ -203,14 +208,46 @@ header a {
 .top-image {
   width: 100%;
   height:auto;
+  vertical-align: bottom;
 }
+.copyright,
+.nav-footer ul {
+  clear: both;
+}
+.nav-footer,
+.pulse,
+.text,
+.title,
+.title-big {
+  display: block;
+}
+.content-wrapper,
+.pulse,
+.text,
+.title,
+.title-big {
+  margin-right: auto;
+  margin-left: auto;
+}
+.copyright,
+.copyright p {
+  color: #fff;
+}
+
 .content-wrapper{
   box-sizing:border-box;
   min-width: 260px;
   width:65%;
   padding:7.81% 0;
-  margin:auto;
   position:static;
+}
+@media(max-width:770px){
+  .content-wrapper{
+    width: 80%;
+  }
+  .partners-container{
+    margin: 80px 0 0 0;
+  }
 }
 .content-wrapper-2{
   min-width: 260px;
@@ -231,6 +268,7 @@ header a {
   min-height: 20px;
   display: block;
   margin:auto;
+  text-align: center;
 }
 .title-big{
   height:3.39vw;
@@ -285,7 +323,6 @@ footer {
 footer .logo {
   height: 48px;
 }
-
 .nav-footer {
   float: right;
   display:flex;
