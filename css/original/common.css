@@ -326,6 +326,7 @@ footer .logo {
 .nav-footer {
   float: right;
   display:flex;
+  margin:auto;
 }
 .nav-footer li {
   list-style: none;
@@ -373,6 +374,7 @@ footer .logo {
 .bizjapan-text{
   padding-top: 60px;
   text-align: center;
+  margin:auto;
 }
 
 
