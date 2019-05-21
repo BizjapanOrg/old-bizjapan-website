@@ -247,49 +247,30 @@ header a {
 }
 
 /* FooterのCSS */
+@charset "UTF-8";
+.copyright,
+.nav-footer ul {
+  clear: both;
+}
 footer {
   background-color: #707070;
-  overflow:hidden;
+  width: 100%;
+  height: 444px;
   position: relative;
-  height: 420px;
-  width:1280px;
+  overflow: hidden;
 }
-footer .logo {
-  position:absolute;
-  top: 78px;
-  left: 10%;
-  height: 48px;
+.footer-wrapper {
+  overflow: hidden;
+  margin: 3vw 7.81vw;
+  font-family: Arial, Helvetica, "sans-serif";
 }
-.nav-footer {
-  position: absolute;
-  top:78px;
-  right: 14.5%;
-  display:block;
-  float: right;
+.footer-wrapper-left{
+  float:left;
 }
-.nav-footer ul{
-  clear:both;
-}
-.nav-footer li {
-  padding-bottom: 11px;
-  list-style: none;
-  text-align: right;
-}
-.nav-footer a{
-  text-decoration: none;
-  font-family: Arial;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.13;
-  letter-spacing: normal;
-  text-align: right;
-  color: #ffffff;
-}
-.copyright {
+.footer-wrapper-left p {
   width: 175px;
   height: 17px;
+  float: left;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -297,10 +278,66 @@ footer .logo {
   line-height: 1.13;
   letter-spacing: 0.8px;
   text-align: right;
-  font-family: Arial, Helvetica, "sans-serif";
   color: #ffffff;
-  
+  float:left;
+  padding-left:260px;
 }
+footer .logo {
+  height: 48px;
+}
+
+.nav-footer {
+  float: right;
+  display:flex;
+}
+.nav-footer li {
+  list-style: none;
+  text-align: left;
+  float:none;
+}
+.nav-footer a {
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: rgb(255, 255, 255);
+  padding-right: 48px;
+  padding-bottom: 11px;
+  display: list-item;
+  text-decoration: none;
+}
+
+
+.copyright {
+  width: 175px;
+  height: 17px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  padding-left: 480px;
+}
+
+.sns-logo{
+  text-align: center;
+}
+.sns-logo img{
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.bizjapan-text{
+  padding-top: 60px;
+  text-align: center;
+}
+
 
 .project-image{
   width:100%;
