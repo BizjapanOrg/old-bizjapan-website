@@ -42,20 +42,6 @@
   margin-right:auto;
   z-index: 100;
 }
-/* What We DoのCSS */
-.whatwedo-wrapper {
-  background: url(../img/groupphoto.jpg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  height: 100%;
-}
-.whatwedo-text p{
-  color:white;
-}
-.whatwedo-title{
-  fill:white;
-}
 /* Projects Platform */
 .pj-platform-container{
   background-color: #ffffff;
