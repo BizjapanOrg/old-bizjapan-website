@@ -139,30 +139,6 @@ h2 {
   font-size: 11px;
 }
 
-/* プロジェクト紹介のCSS*/
-.projects-wrapper{
-  position:relative;
-}
-.project {
-  display:inline-block;
-  width: 33%;
-}
-.project-icon {
-  position: relative;
-}
-
-.project-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-.text-contents {
-  width: 80%;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
 /*partners*/
 .partners-container{
   display: flex;
