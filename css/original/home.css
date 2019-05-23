@@ -28,19 +28,35 @@
 }
 
 
-/* Our valueのCSS */
-.ourvalue-wrapper{
+/* Our valuesのCSS */
+.ourvalues-wrapper{
+  background-color: #ffffff;
   position:relative;
-  background-color: #FFFFFF;
+  background: linear-gradient(90deg, hsl(277, 80%, 20%), hsl(349, 95%, 20%));
   width:100%;
 }
-.ourvalue-text{
+.ourvalues-title, .ourvalues-text{
+  color:white;
+}
+h2,h3{
+  font-family: "DIN 2014";
+}
+h2{
+  font-size: 50px;
+  text-align: center;
+}
+h3{
+  font-size: 30px;
+  margin:40px 0 18px 0;
+}
+p{
+  margin: auto;
+}
+.ourvalues-text{
   position:relative;
   padding:0 0 44px 0;
-  width:70%;
-  margin-left:0;
-  margin-right:auto;
   z-index: 100;
+  width:80%;
 }
 /* Projects Platform */
 .pj-platform-container{
