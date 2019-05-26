@@ -330,24 +330,101 @@ input[type="text"] {
   min-height: 26.46px;
   padding: 10.5px 0;
 }
-.projects-container {
+/* Projects Platform */
+.pj-platform-container{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: center;
-  margin: 80px auto 60px auto;
+  margin:80px auto 0 auto;
 }
-.project-image {
+h2 {
+  font-family: "DIN 2014";
+  font-size: 50px;
+  text-align: center;
+}
+.project-example{
+  width:230px;
+  height:345px;
+  padding:0;
+  margin:0 30px 96px 30px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
+}
+@media(max-width: 770px){
+  .project-example{
+    margin: 0 20px 40px 20px;
+    }
+   h2{
+     font-size: 25px;
+   }
+}
+@media(min-width:770px) {
+  .project-example{
+    margin:0 20px 40px 20px;
+  }
+  h2{
+    font-size: 35px;
+  }
+}
+.project-image{
   width: 100%;
-  max-width: 200px;
-  height: auto;
-  padding: 0;
+  object-fit: cover;
+  border-style: solid;
+  height: 100%;
+  max-width: 230px;
+  border-radius: 20px 20px 0 0;
   margin: 0;
   border: solid 1px #f5f5f5;
 }
-.know-more {
-  text-align: right;
+.project-name{
+  padding:20px 20px;
+  margin:0;
+  height: 22px;
+  font-family: YuGo;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.7;
+  text-align: left;
+  color: #000000;
 }
+.project-description{
+  width: 190px;
+  height: 180px;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: YuGo;
+  line-height: 1.67;
+  text-align: left;
+  position:absolute;
+  color: #707070;
+  padding: 4px 20px;
+  margin-top: 0;
+}
+.square_btn {
+    display: block;
+    width:230px;
+    height: 40px;
+    margin: 60px auto;
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    filter:drop-shadow(3px 3px 5px rgba(0,0,0,0.16));
+    transition: .4s;
+}
+#mxspace-show, #jj-show, #nichy-show{
+  color:#73ABFF;
+  font-family: Arial;
+  text-align: center;
+  padding-top:100px;
+  font-size: 11px;
+}
+
 .recruitment-image {
   display: block;
   width: 100%;
@@ -420,14 +497,9 @@ figcaption div {
 figure:hover figcaption {
   opacity: 1;
 }
-.project-example {
-  width: 225px;
-  padding: 0 8px;
-  text-align: left;
-}
 .project-name {
   text-align: left;
-  padding: 8px 0;
+  padding: 8px;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
