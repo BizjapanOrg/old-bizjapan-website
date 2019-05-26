@@ -212,8 +212,7 @@ header a {
 }
 .contact-form,
 .copyright,
-.copyright,
-.whatwedo-text p {
+.copyright p {
   color: #fff;
 }
 .title {
@@ -258,33 +257,6 @@ footer {
 }
 .howwerun-content-top {
   position: relative;
-}
-.whatwedo-wrapper {
-  background-color: #ffffff;
-  position: relative;
-}
-.whatwedo-wrapper {
-  background: none;
-}
-.whatwedo-wrapper::before {
-  background: url(../img/groupphoto.jpg) no-repeat center/cover;
-  background-size: cover;
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding-top: 70px;
-  min-width: 100%;
-  min-height: 100%;
-  content: "";
-  z-index: -1;
-}
-.mask {
-  height: 100%;
-  background: rgba(122, 122, 122, 0.4);
-}
-.whatwedo-title {
-  fill: #fff;
 }
 .contact-wrapper {
   background-color: #f5f5f5;
