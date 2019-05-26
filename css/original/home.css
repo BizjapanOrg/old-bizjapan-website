@@ -45,25 +45,6 @@
   z-index:4;
 }
 
-/* What We DoのCSS */
-.whatwedo-wrapper {
-  background: url(../img/groupphoto.jpg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  height: 100%;
-}
-.mask{
-  height: 100%;
-  background: rgba(122, 122, 122, 0.4);
-}
-.whatwedo-text p{
-  color:white;
-}
-.whatwedo-title{
-  fill:white;
-}
-
 /* From PresidentのCSS */
 .frompresident-wrapper{
   position:relative;
