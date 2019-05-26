@@ -257,6 +257,34 @@ footer {
 .howwerun-content-top {
   position: relative;
 }
+/*partners*/
+.partners-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 50px 0 50px;
+}
+.partners-discription{
+  text-align: center;
+  margin: 48px 0 0 0;
+}
+.partner-card{
+  display: block;
+  width: 30vw;
+  max-width: 220px;
+  vertical-align: middle;
+  padding: 20px 1vw 15px 1vw;
+}
+.partner-logo{
+  max-width:100%;
+  max-height: 80px;
+  width:auto;
+  height:auto;
+  display:block;
+  margin: auto;
+}
 /*ContactのCSS*/
 .contact-wrapper {
   position:relative;
