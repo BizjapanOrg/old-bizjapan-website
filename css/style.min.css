@@ -1,8 +1,4 @@
-@charset "UTF-8";
-.copyright,
-.nav-footer ul {
-  clear: both;
-}
+
 body,
 html {
   height: 100%;
@@ -185,7 +181,7 @@ header .logo {
     font-size: 16px;
   }
 }
-.nav-footer,
+
 .pulse,
 .text,
 .title,
@@ -273,6 +269,8 @@ header a {
   min-height: 45px;
   padding: 5.46vw 0 4.68vw;
 }
+<<<<<<< HEAD
+=======
 footer {
   background-color: #707070;
   width:100%;
@@ -280,6 +278,7 @@ footer {
   overflow: hidden;
   position: relative;
 }
+>>>>>>> c48516012139e1361a19ad9c91d7e7a1142aac3d
 .aboutus-wrapper {
   position: relative;
   background-color: #f5f5f5;
@@ -841,14 +840,29 @@ figure:hover figcaption {
 .know-more-tag-join {
   padding: 0;
 }
+<<<<<<< HEAD
+=======
 .footer-wrapper {
   overflow: hidden;
   margin: 3.86vw 7.81vw;
   font-family: Arial, Helvetica, "sans-serif";
   position:relative;
 }
-.footer-wrapper-left {
-  float: left;
+.footer-wrapper-left p{
+  width: 175px;
+  height: 17px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: right;
+  color: #ffffff;
+  float:left;
+  padding-left:260px;
+
 }
 .copyright {
   width: 175px;
@@ -881,10 +895,10 @@ footer .logo {
 .nav-footer a {
   text-decoration: none;
   color: #fff;
-
-
 }
+
 .nav-footer a {
+  font-family: Arial;
   font-size: 16px;
   font-family: Arial;
   font-weight: normal;
@@ -908,6 +922,10 @@ footer .logo {
   padding-top: 60px;
   text-align: center;
 }
+
+
+
+>>>>>>> c48516012139e1361a19ad9c91d7e7a1142aac3d
 .language {
   padding: 3px 6px;
   transition: 0.4s;

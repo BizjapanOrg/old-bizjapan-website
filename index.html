@@ -43,7 +43,7 @@
         <div class="nav-wrapper">
           <div class="nav">
             <ul>
-  						<li><a class="fadelink" href="#" >ABOUT</a></li>
+  						<li><a class="fadelink" href="#name" >ABOUT</a></li>
               <li><a class="fadelink" href="../projects/" >PROJECTS</a></li>
               <li><a class="fadelink" href="../projects/" >PROFILE</a></li>
   						<li><a class="fadelink" href="https://sites.google.com/bizjapan.org/spring-recruiting/home" >JOIN</a></li>
@@ -60,19 +60,22 @@
     <div class="main">
       <!-- トップ画像 -->
       <div>
-        <img class="top-image" id="top-image-home" src="./img/cover/top.png" />
+        
+          <img class="top-image" id="top-image-home" src="./img/cover/top.png" />
       </div>
       <div class="aboutus-wrapper">
         <div class="content-wrapper">
-          <img src="./img/SVG/aboutus.svg" class="title title-effect" />
+            <a id = "name" class="anchor"><img src="./img/SVG/aboutus.svg" class="title title-effect" /></a>
           <img src="./img/SVG/pulse.svg" class="pulse" />
           <div class="text aboutus-text">
-            <p>
-              私たちNPO法人Bizjapanは、東京大学・慶応義塾大学・早稲田大学・国際基督教大学などの学生を中心としたメンバーによって構成される団体です。
-            </p>
-            <p>
-              既成の枠にとらわれない「Global」な視点と新たな解決策を探り実行する「Entrepreneurship」をもって、メンバーそれぞれが興味関心に従ってプロジェクトを立ち上げ、実行しています。
-            </p>
+            
+              <p>
+                私たちNPO法人Bizjapanは、東京大学・慶応義塾大学・早稲田大学・国際基督教大学などの学生を中心としたメンバーによって構成される団体です。
+              </p>
+              <p>
+                既成の枠にとらわれない「Global」な視点と新たな解決策を探り実行する「Entrepreneurship」をもって、メンバーそれぞれが興味関心に従ってプロジェクトを立ち上げ、実行しています。
+              </p>
+           
           </div>
           <img
             src="./img/takuno_gradation.png"
@@ -83,11 +86,14 @@
           <img src="./img/takuno_gradation.png" id="takuno-mobile" />
         </div>
       </div>
-
+      </name>
       <!-- our values -->
+      
       <div class="ourvalues-wrapper">
         <div class="content-wrapper">
-          <h2 class="title title-effect ourvalues-title">Our Values</h2>
+          <h2 class="title title-effect ourvalues-title">Our Values 
+          </h2> 
+          
           <img src="./img/SVG/pulse.svg" class="pulse" />
           <div class="text ourvalues-text">
             <h3>GLOBAL</h3>
@@ -221,7 +227,7 @@
       <!--Contact-->
       <div class="contact-wrapper">
         <div class="content-wrapper">
-          <img src="./img/SVG/contact.svg" class="title title-effect" />
+          <a id = "link-contact" class="anchor"><img src="./img/SVG/contact.svg" class="title title-effect" /></a>
           <p class="text contact-p">
             自動で返信メールをお送りいたします。もしも返信メールが送られてこない場合は、<a
               class="know-more-tag know-more-tag-join"
@@ -280,26 +286,52 @@
     <footer>
       <!-- footerのロゴ部分 -->
       <div class="footer-wrapper">
-
+      <!-- copyright -->
+        <div class ="copyright text">
+          <p>©2019 NPO Bizjapan</p>
+        </div>
         <!-- footerのボタン部分 -->
         <div class="nav-footer">
-          <ul>
-            <li><a class="fadelink text" href="./">トップページ</a></li>
-            <li>
-              <a class="fadelink text" href="./about/">Bizjapanについて</a>
-            </li>
-            <li>
-              <a class="fadelink text" href="./projects/">プロジェクト</a>
-            </li>
-            <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/spring-recruiting/home">新歓情報</a></li>
-            <li>
-              <a class="fadelink text" href="./report/">年次活動報告書</a>
-            </li>
-          </ul>
+          <div class="nav-footer-box">
+            <ul>
+              <li><a class="fadelink text" href="./index.html">-HOME</a></li>
+              <li>
+                <a href="#name">-ABOUT</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/bizjapanorg"><img src="./img/footer/twitter-logo.png"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-footer-box">
+            <ul>
+              <li>
+                <a class="fadelink text" href="./projects/">-PROJECTS</a>
+              </li>
+              <li>
+                  <a class="fadelink text" href="./profile/">-PROFILE</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/Bizjapan.org/"><img src="./img/footer/facebook-logo.png"></a>
+              </li>
+            </ul>
+          </div>  
+          <div class="nav-footer-box">
+            <ul>
+                <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/spring-recruiting/home">-JOIN</a></li>
+                <li>
+                  <a href="#link-contact">-CONTACT</a>
+                </li>
+                <li>
+                  <a href="https://note.mu/bizjapan"><img src="./img/footer/note-logo.png"></a>
+                </li>
+            </ul>
+          </div>
         </div>
-        <!-- copyright -->
-        <div class="copyright text"><p>©2018 NPO Bizjapan</p></div>
+      <div class="bizjapan-text">
+        <a href="./index.html"><img src="./img/footer/8-1.png"></a>
       </div>
+    </div>
     </footer>
     <!-- フッターここまで -->
 
