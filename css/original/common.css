@@ -285,6 +285,8 @@ header a {
 }
 
 /* FooterのCSS */
+/* width:476px; なら別のフッタ表示しないといけない*/
+
 @charset "UTF-8";
 .copyright,
 .nav-footer ul {
@@ -339,7 +341,7 @@ footer .logo {
   padding-inline-start:0;
 }
 
-.nav-footer a {
+.nav-footer a{
   font-size: 14px;
   position: relative;
   font-family: Arial;
@@ -355,6 +357,10 @@ footer .logo {
   width:100px;
 }
 
+
+.nav-footer img{
+  padding-top: 20px;
+}
 
 .copyright {
   width: 175px;
@@ -383,9 +389,12 @@ footer .logo {
   height:auto;
 }
 .bizjapan-text{
-  padding-top: 60px;
+  margin: 20px auto;
   text-align: center;
-  margin:auto;
+}
+.nav-footer-box{
+  margin: 0;
+
 }
 
 a.anchor{
