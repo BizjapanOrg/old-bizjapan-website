@@ -41,7 +41,7 @@ header {
   margin-right:auto;
 }
 header .logo {
-  height: 45px;
+  height: 40px;
   padding: 9px 0;
 }
 .nav li {
@@ -256,6 +256,7 @@ footer .logo {
   }
   .nav{
     height:100%;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -355,4 +356,262 @@ footer .logo {
   .text{
     font-size: 16px;
   }
+}
+header li{
+  text-decoration: none;
+  color: #707070;
+}
+header a {
+  text-decoration: none;
+  color: #707070;
+}
+.site-header.hide{
+    transform: translateY(-100%);
+}
+
+/* 以下Main中のもの */
+.main{
+  margin-top: 60px;
+}
+.top-image {
+  width: 100%;
+  height:auto;
+  vertical-align: bottom;
+}
+.copyright,
+.nav-footer ul {
+  clear: both;
+}
+.nav-footer,
+.pulse,
+.text,
+.title,
+.title-big {
+  display: block;
+}
+.content-wrapper,
+.pulse,
+.text,
+.title,
+.title-big {
+  margin-right: auto;
+  margin-left: auto;
+}
+.copyright,
+.copyright p {
+  color: #fff;
+}
+
+.content-wrapper{
+  box-sizing:border-box;
+  min-width: 260px;
+  width:65%;
+  padding:7.81% 0;
+  position:static;
+}
+@media(max-width:770px){
+  .content-wrapper{
+    width: 80%;
+  }
+  .partners-container{
+    margin: 80px 0 0 0;
+  }
+}
+.content-wrapper-2{
+  min-width: 260px;
+  width:42%;
+  padding:7.81% 0;
+  margin:auto;
+}
+.text {
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  color: #4B4B4B;
+  width: 100%;
+  line-height: 26px;
+  display: block;
+  margin:auto;
+}
+.title {
+  height:2.81vw;
+  min-height: 20px;
+  display: block;
+  margin:auto;
+  text-align: center;
+}
+.title-big{
+  height:3.39vw;
+  min-height:24.14px;
+  display: block;
+  margin:auto;
+}
+.pulse {
+  height:4.8vw;
+  min-height: 45px;
+  display: block;
+  padding: 5.46vw 0 4.68vw 0;
+  margin: auto;
+}
+
+/* FooterのCSS */
+/* width:476px; なら別のフッタ表示しないといけない*/
+
+@charset "UTF-8";
+.copyright,
+.nav-footer ul {
+  clear: both;
+}
+footer {
+  background-color: #707070;
+  width: 100%;
+  height: 444px;
+  position: relative;
+  overflow: hidden;
+}
+.footer-wrapper {
+  overflow: hidden;
+  margin: 3vw 7.81vw;
+  font-family: Arial, Helvetica, "sans-serif";
+}
+.footer-wrapper-left{
+  float:left;
+}
+.footer-wrapper-left p {
+  width: 175px;
+  height: 17px;
+  float: left;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: right;
+  color: #ffffff;
+  float:left;
+  padding-left:260px;
+}
+footer .logo {
+  height: 48px;
+}
+.nav-footer {
+  display:flex;
+  margin:auto;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+}
+.nav-footer li {
+  list-style: none;
+  text-align: left;
+  float:none;
+}
+.nav-footer ul{
+  padding-inline-start:0;
+}
+
+.nav-footer a{
+  font-size: 14px;
+  position: relative;
+  font-family: Arial;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: rgb(255, 255, 255);
+  padding:20px 40px 0px 60px;
+  display: list-item;
+  text-decoration: none;
+  width:100px;
+}
+
+
+.nav-footer img{
+  padding-top: 20px;
+}
+
+.copyright {
+  width: 175px;
+  height: 17px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  padding-right: 364px;
+}
+
+
+.sns-logo{
+  text-align: center;
+}
+.sns-logo img{
+  justify-content: center;
+  padding-right: 60px;
+  padding-left: 60px;
+  max-width:100%;
+  height:auto;
+}
+.bizjapan-text{
+  margin: 20px auto;
+  text-align: center;
+}
+.nav-footer-box{
+  margin: 0;
+
+}
+
+a.anchor{
+  display: block;
+  padding-top: 70px;
+  margin-top: -70px;
+}
+@media(max-width:770px){
+  .nav-footer a {
+    font-size: 13px;
+    position: relative;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+    padding:10px 20px 25px 40px;
+    display: list-item;
+    text-decoration: none;
+    width:100px;
+  }
+  .sns-logo img{
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    max-width:100%;
+    height:auto;
+  }
+}
+@media(min-width:770px){
+  .nav-footer a {
+    font-size: 14px;
+    position: relative;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+    padding:20px 40px 0px 60px;
+    display: list-item;
+    text-decoration: none;
+    width:100px;
+  }
+}
+.project-image{
+  width:100%;
+  height:auto;
 }

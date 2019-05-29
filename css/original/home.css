@@ -1,8 +1,12 @@
 @charset "UTF-8";
-
+.contact-form,
+.whatwedo-text p {
+  color: #fff;
+}
 /* About usのCSS */
 .aboutus-wrapper {
   position:relative;
+  background-color: #FFFFFF;
   width: 100%;
 }
 .aboutus-text{
@@ -199,7 +203,6 @@ input[type=email] {
     background: #9E9E9E;
     color: white;
 }
-
 @media(max-width:770px){
   #takuno-mobile{
     display: block;
