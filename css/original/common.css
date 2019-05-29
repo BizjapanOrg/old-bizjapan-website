@@ -41,7 +41,7 @@ header {
   margin-right:auto;
 }
 header .logo {
-  height: 45px;
+  height: 40px;
   padding: 9px 0;
 }
 .nav li {
@@ -256,6 +256,7 @@ footer .logo {
   }
   .nav{
     height:100%;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -355,4 +356,164 @@ footer .logo {
   .text{
     font-size: 16px;
   }
+}
+
+header li{
+  text-decoration: none;
+  color: #707070;
+}
+header a {
+  text-decoration: none;
+  color: #707070;
+}
+.site-header.hide{
+    transform: translateY(-100%);
+}
+
+/* 以下Main中のもの */
+.main{
+  margin-top: 60px;
+}
+.top-image {
+  width: 100%;
+  height:auto;
+  vertical-align: bottom;
+}
+.copyright,
+.nav-footer ul {
+  clear: both;
+}
+.nav-footer,
+.pulse,
+.text,
+.title,
+.title-big {
+  display: block;
+}
+.content-wrapper,
+.pulse,
+.text,
+.title,
+.title-big {
+  margin-right: auto;
+  margin-left: auto;
+}
+.copyright,
+.copyright p {
+  color: #fff;
+}
+
+.content-wrapper{
+  box-sizing:border-box;
+  min-width: 260px;
+  width:65%;
+  padding:7.81% 0;
+  position:static;
+}
+@media(max-width:770px){
+  .content-wrapper{
+    width: 80%;
+  }
+  .partners-container{
+    margin: 80px 0 0 0;
+  }
+}
+.content-wrapper-2{
+  min-width: 260px;
+  width:42%;
+  padding:7.81% 0;
+  margin:auto;
+}
+.text {
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  color: #4B4B4B;
+  width: 100%;
+  line-height: 26px;
+  display: block;
+  margin:auto;
+}
+.title {
+  height:2.81vw;
+  min-height: 20px;
+  display: block;
+  margin:auto;
+  text-align: center;
+}
+.title-big{
+  height:3.39vw;
+  min-height:24.14px;
+  display: block;
+  margin:auto;
+}
+.pulse {
+  height:4.8vw;
+  min-height: 45px;
+  display: block;
+  padding: 5.46vw 0 4.68vw 0;
+  margin: auto;
+}
+
+/* FooterのCSS */
+footer {
+  background-color: #707070;
+  overflow:hidden;
+  position: relative;
+  height: 420px;
+   width:1280px;
+}
+footer .logo {
+  position:absolute;
+  top: 78px;
+  left: 10%;
+  height: 48px;
+}
+.fb-page {
+  display: block !important;
+  margin: 30px 0;
+}
+.nav-footer {
+  position: absolute;
+  top:78px;
+  right: 14.5%;
+  display:block;
+  float: right;
+}
+.nav-footer ul{
+  clear:both;
+}
+.nav-footer li {
+  padding-bottom: 11px;
+  list-style: none;
+  text-align: right;
+}
+.nav-footer a{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: right;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+.copyright {
+  width: 175px;
+  height: 17px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.project-image{
+  width:100%;
+  height:auto;
 }

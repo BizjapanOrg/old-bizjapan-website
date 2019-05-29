@@ -1,8 +1,12 @@
 @charset "UTF-8";
-
+.contact-form,
+.whatwedo-text p {
+  color: #fff;
+}
 /* About usのCSS */
 .aboutus-wrapper {
   position:relative;
+  background-color: #FFFFFF;
   width: 100%;
 }
 .aboutus-text{
@@ -21,15 +25,18 @@
   bottom:0;
   z-index:2;
 }
+
 /* Our ValuesのCSS */
 .ourvalues-wrapper{
   position:relative;
   background:linear-gradient(90deg, hsl(277, 80%, 20%), hsl(349, 95%, 20%));
+
   width:100%;
 }
 .ourvalues-title, .ourvalues-text{
   color:white;
 }
+
 h2, h3{
   font-family:"DIN 2014";
   font-size:50px;
@@ -196,6 +203,7 @@ input[type=email] {
 }
 
  .square_btn:hover {
+
     background: #9E9E9E;
     color: white;
 }
@@ -213,6 +221,7 @@ input[type=email] {
   h3{
     font-size:20px;
   }
+
 }
 @media(min-width:770px){
   #takuno{
