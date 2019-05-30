@@ -77,7 +77,7 @@ Thank you so much!
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 　NPO Bizjapan
-　Start with Impulse, Finish with Impact
+　Because we love it.
 　https://bizjapan.org
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 __return_body__
