@@ -17,6 +17,7 @@
   <link rel="icon" href="../img/logo/favicon.ico">
 	<link rel="stylesheet" href="../contact/mfp.statics/mailformpro.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/original/common.css" />
 	<title>Bizjapan</title>
 </head>
 
@@ -57,7 +58,7 @@
 
 	  <div class="aboutus-wrapper">
 			<div class="content-wrapper">
-	      <img src="../img/SVG/aboutus.svg" class="title title-effect">
+	      <a id ="name" class ="anchor"><img src="../img/SVG/aboutus.svg" class="title title-effect"></a>
 	      <img src="../img/SVG/pulse.svg"  class="pulse">
 	      <div class = "text aboutus-text">
 					<p>Bizjapan is a non-profit organization which mainly consists of students from the University of Tokyo, Keio University, Waseda University, and International Christian University. /p>
@@ -124,7 +125,7 @@
 	  <!-- contact -->
 	  <div class="contact-wrapper">
 			<div class="content-wrapper">
-				<img src="../img/SVG/contact.svg" class="title title-effect">
+				<a id = "link-contact" class="anchor"><img src="../img/SVG/contact.svg" class="title title-effect"></a>
 				<p class="text contact-p">Confirmation email will be sent automatically in minutes. If you do not have any email, please contact <a class="know-more-tag know-more-tag-join" href="mailto:info&#64;bizjapan.com">here.</a></p>
 
 	     	<form id="mailformpro">
@@ -143,28 +144,56 @@
 	</div>
 	<!--メインここまで -->
 
-	<!--フッターここから -->
+	<!-- フッターここから -->
 	<footer>
-	  <!-- footerのロゴ部分 -->
-		<div class="footer-wrapper">
-			<div class="footer-wrapper-left">
-		    <img src="../img/logo/logo.png"  class="logo">
-				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBizjapan.org%2F&tabs=timeline&width=300px&height=340px&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=444447162744503" width="300px" height="340px" style="display:block;border:none;overflow:hidden;margin:20px 0;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-			</div>
-	    <!-- footerのボタン部分 -->
-			<div class="nav-footer">
-		    <ul>
-		      <li><a class="fadelink text" href="./" >HOME</a></li>
-		      <li><a class="fadelink text" href="./about/" >ABOUT</a></li>
-		      <li><a class="fadelink text" href="./projects/" >PROJECTS</a></li>
-		      <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/spring-recruiting/home" >JOIN</a></li>
-		      <li><a class="fadelink text" href="./report/" >REPORT</a></li>
-				</ul>
-			</div>
-			<!-- copyright -->
-			<div class="copyright text"><p>©2018 NPO Bizjapan</p></div>
-		</div>
-	</footer>
+      <!-- footerのロゴ部分 -->
+      <div class="footer-wrapper">
+      <!-- copyright -->
+        <div class ="copyright text">
+          <p>©2019 NPO Bizjapan</p>
+        </div>
+        <!-- footerのボタン部分 -->
+        <div class="nav-footer">
+          <div class="nav-footer-left">
+            <ul>
+              <li><a class="fadelink text" href="../en/index.html">-HOME</a></li>
+              <li>
+                <a href="#name">-ABOUT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-footer-center">
+            <ul>
+              <li>
+                <a class="fadelink text" href="../en/projects/">-PROJECTS</a>
+              </li>
+              <li>
+                  <a class="fadelink text" href="../en/profile/">-PROFILE</a>
+              </li>
+            </ul>
+          </div>  
+          <div class="nav-footer-right">
+            <ul>
+                <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/spring-recruiting/home">-JOIN</a></li>
+                <li>
+                  <a href="#link-contact">-CONTACT</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sns-logo">
+          <a href="https://twitter.com/bizjapanorg"><img src="../img/footer/twitter-logo.png"></a>
+          <a href="https://www.facebook.com/Bizjapan.org/"><img src="../img/footer/facebook-logo.png"></a>
+          <a href="https://note.mu/bizjapan"><img src="../img/footer/note-logo.png"></a>
+      </div>
+      <div class="bizjapan-text">
+        <a href="./index.html"><img src="../img/footer/8-1.png"></a>
+      </div>
+
+      
+    </footer>
+    <!-- フッターここまで -->
 	<!--フッターここまで -->
 
 	<!-- jQuery, javascriptの読み込み　ページの体感速度上昇のために一番最後においてある-->
