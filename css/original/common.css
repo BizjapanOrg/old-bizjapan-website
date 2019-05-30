@@ -32,7 +32,7 @@ header {
   margin:0 auto;
   padding:0 40px;
   background-color: #FFFFFF;
-  transition: .5s;
+  transition: 0.5s;
   z-index: 999;
 }
 .header-area{
@@ -180,7 +180,7 @@ header .logo {
   }
   .nav li {
     float: left;
-    padding-left: 46px;
+    padding-left: 24px;
   }
   .toggle{
     display:none;
