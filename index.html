@@ -218,29 +218,40 @@
         </p>
 
         <!-- Create a new form. -->
-        <script type="text/javascript">var submitted=false; var target = document.getElementsById("hidden_iframe");</script>
-        <iframe 
-          name="hidden_iframe" 
-          id="hidden_iframe" 
-          width="0" 
+        <script type="text/javascript">
+          var submitted = false;
+          var target = document.getElementsById('hidden_iframe');
+          function formreset() {
+            if (submitted) {
+              document.getElementById('form').reset();
+            }
+          }
+        </script>
+        <iframe
+          name="hidden_iframe"
+          id="hidden_iframe"
+          width="0"
           height="0"
-          name="dummyframe" 
+          name="dummyframe"
           id="dummyframe"
-          style="display:none;" 
-          onload="if(submitted) {target.style.display = 'block'}"
+          style="display:none;"
+          onload="if(submitted) {
+            target.style.display = 'block';
+          }"
         ></iframe>
-        <form 
-          action="https://docs.google.com/forms/d/e/1FAIpQLScXUlgjMW1PbzsaeOjXm9OfhKS480FOb7b4SRBTvQzlYPIOjQ/formResponse" 
-          method="post" 
-          target="hidden_iframe" 
-          onsubmit="submitted=true;"
+        <form
+          id="form"
+          action="https://docs.google.com/forms/d/e/1FAIpQLScXUlgjMW1PbzsaeOjXm9OfhKS480FOb7b4SRBTvQzlYPIOjQ/formResponse"
+          method="post"
+          target="hidden_iframe"
+          onsubmit="submitted=true; formreset();"
         >
           <label for="name" class="text">Name</label>
-          <input 
-            type="text" 
-            name="entry.907722899" 
-            id="name-form" 
-            required="required" 
+          <input
+            type="text"
+            name="entry.907722899"
+            id="name-form"
+            required="required"
           />
           <label for="email" class="text">Mail Address</label>
           <input
