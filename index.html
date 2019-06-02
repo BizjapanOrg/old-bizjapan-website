@@ -218,7 +218,23 @@
         </p>
 
         <!-- Create a new form. -->
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLScXUlgjMW1PbzsaeOjXm9OfhKS480FOb7b4SRBTvQzlYPIOjQ/formResponse">
+        <script type="text/javascript">var submitted=false; var target = document.getElementsById("hidden_iframe");</script>
+        <iframe 
+          name="hidden_iframe" 
+          id="hidden_iframe" 
+          width="0" 
+          height="0"
+          name="dummyframe" 
+          id="dummyframe"
+          style="display:none;" 
+          onload="if(submitted) {target.style.display = 'block'}"
+        ></iframe>
+        <form 
+          action="https://docs.google.com/forms/d/e/1FAIpQLScXUlgjMW1PbzsaeOjXm9OfhKS480FOb7b4SRBTvQzlYPIOjQ/formResponse" 
+          method="post" 
+          target="hidden_iframe" 
+          onsubmit="submitted=true;"
+        >
           <label for="name" class="text">Name</label>
           <input 
             type="text" 
@@ -248,6 +264,7 @@
           ></textarea>
           <button
             type="submit"
+            value="Submit"
             class="square_btn"
             style="
             width:230px;
