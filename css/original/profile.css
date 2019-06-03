@@ -1,0 +1,13 @@
+.title{
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    width: 100%;
+    float: left;
+    margin-top: 1.3333333333rem;
+}
+body{
+    color: #5b4421;
+    cursor: auto;
+    font-style: normal;
+    font-weight: 400;
+}
