@@ -66,6 +66,7 @@ header .logo {
   background: #9e9e9e;
   color: #fff;
 }
+
 @media (max-width: 870px) {
   header .logo {
     display: none;
