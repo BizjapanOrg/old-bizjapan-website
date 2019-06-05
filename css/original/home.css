@@ -145,6 +145,36 @@ h2 {
     filter:drop-shadow(3px 3px 5px rgba(0,0,0,0.16));
     transition: .4s;
 }
+.accbox {
+  text-align:center;
+}
+.accbox label:before {
+  font-weight: 900;
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-size:28px;
+  padding-right: 12px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.accbox input {
+  display: none;
+}
+.accbox .accshow {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+.cssacc:checked + label + .accshow {
+  height: auto;
+  padding: 5px;
+  opacity: 1;
+}
+.cssacc:checked + label:before {
+  content: '\f106';
+}
 #mxspace-show, #jj-show, #nichy-show{
   color:#73ABFF;
   font-family: Arial;
