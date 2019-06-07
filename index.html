@@ -293,11 +293,6 @@
           <script type="text/javascript">
             var submitted = false;
             var target = document.getElementsById('hidden_iframe');
-            function formreset() {
-              if (submitted) {
-                document.getElementById('form').reset();
-              }
-            }
           </script>
           <iframe
             name="hidden_iframe"
@@ -316,7 +311,7 @@
             action="https://docs.google.com/forms/d/e/1FAIpQLScXUlgjMW1PbzsaeOjXm9OfhKS480FOb7b4SRBTvQzlYPIOjQ/formResponse"
             method="post"
             target="hidden_iframe"
-            onsubmit="submitted=true; formreset();"
+            onsubmit="submitted=true;"
           >
             <label for="name" class="text">Name</label>
             <input
@@ -349,9 +344,7 @@
               type="submit"
               value="Submit"
               class="square_btn"
-              style="
-            width:230px;
-            height:40px;"
+              style="width:230px; height:40px;"
             >
               送信
             </button>
