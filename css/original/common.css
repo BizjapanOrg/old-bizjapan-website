@@ -180,7 +180,7 @@ header .logo {
   }
   .nav li {
     float: left;
-    padding-left: 46px;
+    padding-left: 24px;
   }
   .toggle{
     display:none;
