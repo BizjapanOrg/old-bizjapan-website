@@ -217,7 +217,7 @@ header a {
 .content-wrapper {
   box-sizing: border-box;
   min-width: 260px;
-  width: 60%;
+  width: 65%;
   padding: 7.81% 0;
   position: static;
 }
@@ -567,6 +567,7 @@ h2 {
   padding:0;
   margin:0 30px 96px 30px;
   border-radius: 20px;
+  background-color: white;
   box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
 }
 @media(max-width: 770px){
@@ -708,6 +709,13 @@ figcaption div {
   display: table-cell;
   vertical-align: middle;
 }
+.projects-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin:80px auto 0 auto;
+}
 .project-name,
 .project-name a {
   color: #707070;
@@ -789,7 +797,7 @@ figure:hover figcaption {
   line-height: 1.17;
   letter-spacing: normal;
   text-align: left;
-  padding-top:60px;
+  padding-top:90px;
   padding-left:36px;
   color: #73abff;
 

@@ -106,8 +106,8 @@ header a {
 .content-wrapper{
   box-sizing:border-box;
   min-width: 260px;
-  width:60%;
-  padding:6% 0;
+  width:65%;
+  padding:7.81% 0;
   position:static;
 }
 .content-wrapper-2{
@@ -402,13 +402,6 @@ header a {
   color: #fff;
 }
 
-.content-wrapper{
-  box-sizing:border-box;
-  min-width: 260px;
-  width:65%;
-  padding:7.81% 0;
-  position:static;
-}
 @media(max-width:770px){
   .content-wrapper{
     width: 80%;
