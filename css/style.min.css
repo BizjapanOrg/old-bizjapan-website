@@ -269,6 +269,7 @@ header a {
   min-height: 45px;
   padding: 5.46vw 0 4.68vw;
 }
+
 footer {
   background-color: #707070;
   width:100%;
@@ -276,6 +277,7 @@ footer {
   overflow: hidden;
   position: relative;
 }
+
 .aboutus-wrapper {
   position: relative;
   width: 100%;
@@ -953,14 +955,6 @@ footer .logo {
 .nav-footer {
   display: flex;
   float: right;
-
-}
-.nav-footer li {
-  list-style: none;
-  text-align: left;
-  float:none;
-
-
 }
 .nav-footer a {
   text-decoration: none;
