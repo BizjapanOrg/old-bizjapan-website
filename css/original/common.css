@@ -199,46 +199,6 @@ figcaption div {
 figure:hover figcaption {
   opacity: 1;
 }
-/* FooterのCSS */
-footer {
-  background-color: #9E9E9E;
-  overflow:hidden;
-  position: relative;
-}
-footer .logo {
-  position:absolute;
-  top: 78px;
-  left: 10%;
-  height: 48px;
-}
-.nav-footer {
-  position: absolute;
-  top:78px;
-  right: 14.5%;
-  display:block;
-  float: right;
-}
-.nav-footer ul{
-  clear:both;
-}
-.nav-footer li {
-  padding-bottom: 16px;
-  list-style: none;
-  text-align: right;
-}
-.nav-footer a{
-  text-decoration: none;
-  color: #ffffff;
-}
-.copyright {
-  clear:both;
-  position: absolute;
-  bottom:40px;
-  width: 100%;
-  text-align: center;
-  font-family: Arial, Helvetica, "sans-serif";
-  color: #ffffff;
-}
 @media(max-width:770px){
   header .logo{
     display: block;
@@ -444,10 +404,7 @@ header a {
   padding: 5.46vw 0 4.68vw 0;
   margin: auto;
 }
-
 /* FooterのCSS */
-/* width:476px; なら別のフッタ表示しないといけない*/
-
 @charset "UTF-8";
 .copyright,
 .nav-footer ul {
@@ -502,7 +459,7 @@ footer .logo {
   padding-inline-start:0;
 }
 
-.nav-footer a{
+.nav-footer a {
   font-size: 14px;
   position: relative;
   font-family: Arial;
@@ -518,10 +475,6 @@ footer .logo {
   width:100px;
 }
 
-
-.nav-footer img{
-  padding-top: 20px;
-}
 
 .copyright {
   width: 175px;
@@ -541,8 +494,6 @@ footer .logo {
 
 .sns-logo{
   text-align: center;
-  color: #ffffff;
-
 }
 .sns-logo img{
   justify-content: center;
@@ -552,12 +503,9 @@ footer .logo {
   height:auto;
 }
 .bizjapan-text{
-  margin: 20px auto;
+  padding-top: 60px;
   text-align: center;
-}
-.nav-footer-box{
-  margin: 0;
-
+  margin:auto;
 }
 
 a.anchor{
