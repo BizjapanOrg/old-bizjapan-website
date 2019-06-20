@@ -269,6 +269,7 @@ header a {
   min-height: 45px;
   padding: 5.46vw 0 4.68vw;
 }
+
 footer {
   background-color: #707070;
   width:100%;
@@ -276,6 +277,7 @@ footer {
   overflow: hidden;
   position: relative;
 }
+
 .aboutus-wrapper {
   position: relative;
   width: 100%;
@@ -499,7 +501,7 @@ input[type=email] {
     display: block;
   }
   h3{
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 @media (min-width: 770px) {
@@ -567,6 +569,7 @@ h2 {
   padding:0;
   margin:0 30px 96px 30px;
   border-radius: 20px;
+  background-color: white;
   box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
 }
 @media(max-width: 770px){
@@ -708,6 +711,13 @@ figcaption div {
   display: table-cell;
   vertical-align: middle;
 }
+.projects-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin:80px auto 0 auto;
+}
 .project-name,
 .project-name a {
   color: #707070;
@@ -763,9 +773,7 @@ figure:hover figcaption {
 
 .project-discription {
   width: 190px;
-
   height: 180px;
-
   font-size: 12px;
   font-weight: 500;
   font-style: normal;
@@ -791,7 +799,7 @@ figure:hover figcaption {
   line-height: 1.17;
   letter-spacing: normal;
   text-align: left;
-  padding-top:60px;
+  padding-top:90px;
   padding-left:36px;
   color: #73abff;
 
@@ -947,14 +955,6 @@ footer .logo {
 .nav-footer {
   display: flex;
   float: right;
-
-}
-.nav-footer li {
-  list-style: none;
-  text-align: left;
-  float:none;
-
-
 }
 .nav-footer a {
   text-decoration: none;
@@ -986,8 +986,6 @@ footer .logo {
   padding-top: 60px;
   text-align: center;
 }
-
-
 
 .language {
   padding: 3px 6px;

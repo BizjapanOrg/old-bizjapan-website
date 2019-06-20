@@ -106,8 +106,8 @@ header a {
 .content-wrapper{
   box-sizing:border-box;
   min-width: 260px;
-  width:60%;
-  padding:6% 0;
+  width:65%;
+  padding:7.81% 0;
   position:static;
 }
 .content-wrapper-2{
@@ -135,7 +135,7 @@ header a {
   min-height:24.14px;
 }
 .title{
-  font-family: "DIN 2014";
+  font-family: "DIN 2014", "Ropa Sans";
   font-size: 50px;
   text-align: center;
 }
@@ -152,7 +152,7 @@ header a {
     text-decoration: none;
     color: #707070;
     font-size: 16px;
-    font-family:"Yu Gothic";
+    font-family:"游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
     font-weight:bold;
     background-color: white;
     border: none;
@@ -198,46 +198,6 @@ figcaption div {
 }
 figure:hover figcaption {
   opacity: 1;
-}
-/* FooterのCSS */
-footer {
-  background-color: #9E9E9E;
-  overflow:hidden;
-  position: relative;
-}
-footer .logo {
-  position:absolute;
-  top: 78px;
-  left: 10%;
-  height: 48px;
-}
-.nav-footer {
-  position: absolute;
-  top:78px;
-  right: 14.5%;
-  display:block;
-  float: right;
-}
-.nav-footer ul{
-  clear:both;
-}
-.nav-footer li {
-  padding-bottom: 16px;
-  list-style: none;
-  text-align: right;
-}
-.nav-footer a{
-  text-decoration: none;
-  color: #ffffff;
-}
-.copyright {
-  clear:both;
-  position: absolute;
-  bottom:40px;
-  width: 100%;
-  text-align: center;
-  font-family: Arial, Helvetica, "sans-serif";
-  color: #ffffff;
 }
 @media(max-width:770px){
   header .logo{
@@ -402,13 +362,6 @@ header a {
   color: #fff;
 }
 
-.content-wrapper{
-  box-sizing:border-box;
-  min-width: 260px;
-  width:65%;
-  padding:7.81% 0;
-  position:static;
-}
 @media(max-width:770px){
   .content-wrapper{
     width: 80%;
@@ -451,10 +404,7 @@ header a {
   padding: 5.46vw 0 4.68vw 0;
   margin: auto;
 }
-
 /* FooterのCSS */
-/* width:476px; なら別のフッタ表示しないといけない*/
-
 @charset "UTF-8";
 .copyright,
 .nav-footer ul {
@@ -509,7 +459,7 @@ footer .logo {
   padding-inline-start:0;
 }
 
-.nav-footer a{
+.nav-footer a {
   font-size: 14px;
   position: relative;
   font-family: Arial;
@@ -525,10 +475,6 @@ footer .logo {
   width:100px;
 }
 
-
-.nav-footer img{
-  padding-top: 20px;
-}
 
 .copyright {
   width: 175px;
@@ -557,12 +503,9 @@ footer .logo {
   height:auto;
 }
 .bizjapan-text{
-  margin: 20px auto;
+  padding-top: 60px;
   text-align: center;
-}
-.nav-footer-box{
-  margin: 0;
-
+  margin:auto;
 }
 
 a.anchor{
@@ -614,4 +557,20 @@ a.anchor{
 .project-image{
   width:100%;
   height:auto;
+}
+.language {
+  padding: 0.1em 0.4em;
+  border-radius: 5px;
+  transition: 0.4s;
+  background: #9e9e9e;
+  color: #fff !important;
+}
+.language:hover {
+  background: #ffffff;
+  color: #707070 !important;
+}
+.mfp {
+  border: 1px #d5d5d5;
+  border-radius: 9px;
+  display: block;
 }
