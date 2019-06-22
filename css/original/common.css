@@ -46,7 +46,7 @@ header .logo {
 }
 .nav li {
   font-family: Arial, Helvetica, "sans-serif";
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   list-style: none;
 }
@@ -63,15 +63,142 @@ header .logo {
   padding:0.1em 1em;
   border-radius: 5px;
   transition: .4s;
+  color:#4b4b4b;
 }
 .know-more-tag:hover{
     background: #9E9E9E;
     color: white;
 }
-.know-more-whatwedo{
-  color:white;
-}
 
+.nav-footer,
+.pulse,
+.text,
+.title,
+.title-big {
+  display: block;
+}
+header li,
+header a {
+  text-decoration: none;
+  color: #707070;
+}
+.site-header.hide{
+    transform: translateY(-100%);
+}
+/* 以下Main中のもの */
+.main{
+  overflow:hidden;
+  margin-top: 60px;
+}
+.content-wrapper,
+.pulse,
+.text,
+.title,
+.title-big {
+  margin-right: auto;
+  margin-left: auto;
+}
+.top-image {
+  width: 100%;
+  height:auto;
+  victical-align:bottom;
+}
+.content-wrapper{
+  box-sizing:border-box;
+  min-width: 260px;
+  width:65%;
+  padding:7.81% 0;
+  position:static;
+}
+.content-wrapper-2{
+  min-width: 260px;
+  width:42%;
+  padding:7.81% 0;
+  margin:auto;
+}
+.text {
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  color: #4B4B4B;
+  width: 100%;
+  line-height: 26px;
+}
+.copyright,
+.copyright p {
+  color: #fff;
+}
+.title {
+  height:2.81vw;
+  min-height: 20px;
+}
+.title-big{
+  height:3.39vw;
+  min-height:24.14px;
+}
+.title{
+  font-family: "DIN 2014", "Ropa Sans";
+  font-size: 50px;
+  text-align: center;
+}
+.pulse {
+  height:4.8vw;
+  min-height: 45px;
+  padding: 3.3vw 0 3.3vw 0;
+}
+.square_btn {
+    display: block;
+    width:230px;
+    height: 40px;
+    margin: 60px auto;
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-family:"游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-weight:bold;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    filter:drop-shadow(3px 3px 5px rgba(0,0,0,0.16));
+    transition: .4s;
+}
+figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: 160.55px;
+}
+figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 200px;
+  height: 142px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  text-align: center;
+  display: table;
+}
+.modal {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+.modal,
+.modal img {
+  height: auto;
+  box-sizing: border-box;
+}
+figcaption div {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
 @media(max-width:770px){
   header .logo{
     display: block;
@@ -136,9 +263,8 @@ header .logo {
       top: 28px;
       left: 5px;
       font-size: 12px;
-      font-weight: bold;
+      font-weight: 700;
   }
-
   /***** クリック後のボタン *****/
   /* 最初のspanをマイナス45度にする */
   .toggle.active span:nth-child(1) {
@@ -152,18 +278,17 @@ header .logo {
   .toggle.active span:nth-child(2){
     display: none;
   }
-
   .toggle.active span:nth-child(3) {
       top: 15px;
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
       transform: rotate(45deg);
   }
-
-  .text{
-    font-size: 12px;
+  .title{
+    font-size: 25px;
   }
-  .know-more-tag{
+  .know-more-tag,
+  .text{
     font-size: 12px;
   }
 }
@@ -184,6 +309,9 @@ header .logo {
   }
   .toggle{
     display:none;
+  }
+  .title{
+    font-size: 35px;
   }
   .text{
     font-size: 16px;
@@ -234,13 +362,6 @@ header a {
   color: #fff;
 }
 
-.content-wrapper{
-  box-sizing:border-box;
-  min-width: 260px;
-  width:65%;
-  padding:7.81% 0;
-  position:static;
-}
 @media(max-width:770px){
   .content-wrapper{
     width: 80%;
@@ -283,7 +404,6 @@ header a {
   padding: 5.46vw 0 4.68vw 0;
   margin: auto;
 }
-
 /* FooterのCSS */
 @charset "UTF-8";
 .copyright,
