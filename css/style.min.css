@@ -439,6 +439,7 @@ h3{
   max-width: 220px;
   vertical-align: middle;
   padding: 20px 1vw 15px 1vw;
+
 }
 .partner-logo{
   max-width:100%;
@@ -448,6 +449,7 @@ h3{
   display:block;
   margin: auto;
 }
+
 /*ContactのCSS*/
 .contact-wrapper {
   position:relative;
@@ -562,6 +564,7 @@ h2 {
   font-family: "DIN 2014";
   font-size: 50px;
   text-align: center;
+
 }
 .project-example{
   width:230px;
@@ -588,6 +591,7 @@ h2 {
     font-size: 35px;
   }
 }
+
 .project-image{
   width: 100%;
   object-fit: cover;
@@ -961,6 +965,7 @@ footer .logo {
   color: #fff;
 }
 
+
 .nav-footer a {
   font-family: Arial;
   font-size: 16px;
@@ -986,6 +991,7 @@ footer .logo {
   padding-top: 60px;
   text-align: center;
 }
+
 
 .language {
   padding: 3px 6px;
