@@ -160,45 +160,9 @@ header a {
     filter:drop-shadow(3px 3px 5px rgba(0,0,0,0.16));
     transition: .4s;
 }
-figure {
-  margin: 0;
-  position: relative;
-  overflow: hidden;
-  width: auto;
-  height: 160.55px;
-}
-figcaption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 200px;
-  height: 142px;
-  background: rgba(0, 0, 0, 0.6);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  opacity: 0;
-  text-align: center;
-  display: table;
-}
-.modal {
-  position: fixed;
-  right: 0;
-  left: 0;
-}
-.modal,
-.modal img {
-  height: auto;
-  box-sizing: border-box;
-}
-figcaption div {
-  color: #fff;
-  display: table-cell;
-  vertical-align: middle;
-}
-figure:hover figcaption {
-  opacity: 1;
-}
+
+
+
 @media(max-width:770px){
   header .logo{
     display: block;
