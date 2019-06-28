@@ -1,43 +1,225 @@
 @charset "UTF-8";
 
-/* What is a project */
-.whatisaproject-wrapper{
-  background-color: #F5F5F5;
+
+/* Projects Platform */
+.pj-platform-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin:80px auto 0 auto;
+}
+h2 {
+  font-family: "DIN 2014";
+  font-size: 50px;
+  text-align: center;
+}
+.project-example{
+  width:230px;
+  height:345px;
+  padding:0;
+  margin:0 30px 96px 30px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
+}
+@media(max-width: 770px){
+  .project-example{
+    margin: 0 20px 40px 20px;
+    }
+   h2{
+     font-size: 25px;
+   }
+}
+@media(min-width:770px) {
+  .project-example{
+    margin:0 20px 40px 20px;
+  }
+  h2{
+    font-size: 35px;
+  }
+}
+.project-image{
+  width: 100%;
+  object-fit: cover;
+  border-style: solid;
+  height: 100%;
+  max-width: 230px;
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+  border: solid 1px #f5f5f5;
 }
 
-/* 画像のHoverどきにCaption表示 */
+.project-name {
+  text-align: left;
+  padding: 8px;
+  margin: 0;
+  font-family: DIN Alternate,"游ゴシック",Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+
+.square_btn {
+    display: block;
+    width:230px;
+    height: 40px;
+    margin: 60px auto;
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    filter:drop-shadow(3px 3px 5px rgba(0,0,0,0.16));
+    transition: .4s;
+}
+#mxspace-show, #jj-show, #nichy-show{
+  color:#73ABFF;
+  font-family: Arial;
+  text-align: center;
+  padding-top:100px;
+  font-size: 11px;
+}
+
+.recruitment-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.recruitment-steps {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 70px auto;
+}
+.recruitment-step {
+  width: 225px;
+  padding: 0 10px;
+  text-align: left;
+}
+.recruitment-step-img {
+  display: block;
+  max-height: 120px;
+  margin: 0 auto 40px;
+  z-index: 2;
+}
+.recruitment-step-discription {
+  text-align: left;
+  z-index: 3;
+}
 figure {
   margin: 0;
   position: relative;
   overflow: hidden;
-  width:100%;
-  height:160.55px;
+  width: auto;
+  height: 160.55px;
 }
 figcaption {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,.6);
-  -webkit-transition: .3s;
-  transition: .3s;
+  width: 230px;
+  height: 160.5px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   opacity: 0;
   text-align: center;
   display: table;
 }
-figcaption div{
-  color: white;
+.modal,
+.project-modal-wrapper {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+.modal,
+.modal img {
+  height: auto;
+  box-sizing: border-box;
+}
+figcaption div {
+  color: #fff;
   display: table-cell;
   vertical-align: middle;
+}
+.projects-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin:80px auto 0 auto;
+}
+.project-name a {
+  color: #707070;
+}
+.content-title{
+  font-size:2.8em;
+  font-family: DIN alternate;
+
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-right:auto;
+  margin-left:auto;
+
+
+}
+
+.projectwithstories-wrapper{
+  width: 100%;
+  opacity: 0.85;
+  border: solid 1px #707070;
+  background-color: #000000;
+  background-image: linear-gradient(90deg, hsla(301, 81%, 25%, 50%),hsla(355, 99%, 42%, 50%));
+}
+.projects-specific-container{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 0 auto;
 }
 figure:hover figcaption {
   opacity: 1;
 }
-/* project with storiesについて*/
+
+
+.project-discription {
+  width: 190px;
+  height: 180px;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  position: absolute;
+  color: #707070;
+  padding: 4px 20px;
+  margin-top: 0;
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+    "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
 .project-detail{
-  width: 110px;
   height: 14px;
   font-family: Arial;
   font-size: 12px;
@@ -47,131 +229,90 @@ figure:hover figcaption {
   line-height: 1.17;
   letter-spacing: normal;
   text-align: left;
+  padding-top:90px;
+  padding-left:36px;
   color: #73abff;
 
-
 }
-/* Projects ongoingについて */
-.projects-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
-  justify-content: center;
-  margin:80px auto 0 auto;
+.pastprojects-wrapper {
+  background-color: #f5f5f5;
 }
-.project-example{
-  width:225px;
-  padding:0 8px;
-  text-align: left;
-}
-.project-name{
-  text-align: left;
-  padding: 8px 0;
-  margin: 0;
-  font-family: DIN Alternate ,Arial, Helvetica, "sans-serif";
-  font-size: 20px;
-  color: #707070;
-}
-.project-name a{
-  color: #707070;
-}
-.project-discription{
-  text-align: left;
-  padding:0;
-  margin-top: 0;
-  margin-bottom:40px;
-  font-family: "游ゴシック","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-  font-size: 10px;
-  color:#444444;
-}
-
-/* Past Project */
-.pastprojects-wrapper{
-  background-color: #F5F5F5;
-}
-
-/* Modal */
 .project-modal-wrapper {
-  position: fixed;
   top: 0;
-  right: 0;
   bottom: 0;
-  left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
-  display:none;
+  display: none;
 }
 .modal {
   overflow-y: scroll;
-  position: fixed;
   top: 10%;
   bottom: 10%;
-  right: 0;
-  left: 0;
   width: 40%;
   min-width: 310px;
-  height: auto;
   margin: auto;
-
   text-align: center;
-  background-color: #ffffff;
-  box-sizing: border-box; border-radius: 10px;
+  background-color: #fff;
+  border-radius: 10px;
 }
-.modal img{
-  width:100%;
-  height: auto;
+.modal img {
+  width: 100%;
   object-fit: cover;
+  border-style: solid;
+  border-width: 0 0 1.5px;
+  border-color: #444;
+  border-radius: 10px 10px 0 0;
+}
+.modal-contents {
+  padding: 4.7% 7.9%;
   box-sizing: border-box;
-  border-style:solid; border-width:0 0 1.5px 0; border-color: #444444; border-radius:10px 10px 0 0;
 }
-.modal-contents{
-  padding:4.7% 7.9%;
-  box-sizing: border-box;
+.modal-content-0 {
+  margin: 0 0 15px;
 }
-.modal-content-0{
-  margin:0 0 15px 0;
-}
-.modal-content-1, .modal-content-2{
+.modal-content-1,
+.modal-content-2 {
   margin: 15px 0;
 }
-.modal-title{
-  font-family: Arial, Helvetica, "sans-serif";
-  font-weight: bold;
+.modal-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 20px;
   text-align: center;
-  margin-top:0;
+  margin-top: 0;
 }
-.modal-title a{
+.modal-title a {
   color: inherit;
 }
-.modal-sub-title-1{
-  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+.modal-sub-title-1,
+.modal-sub-title-2 {
+  font-weight: 700;
+  color: #444;
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+    "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.modal-sub-title-1 {
   font-size: 16px;
-  font-weight: bold;
-  color: #444444;
   margin: 15px 0;
   text-align: center;
 }
-.modal-sub-title-2{
-  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-  font-weight: bold;
-  color: #444444;
+.modal-sub-title-2 {
   text-align: left;
   margin-bottom: 16px;
 }
-@media(max-width:770px){
-  .modal-sub-title-1{
+@media (max-width: 770px) {
+  .modal-sub-title-1 {
     font-size: 11px;
   }
-  .modal-sub-title-2{
+  .modal-sub-title-2 {
     font-size: 13.75px;
   }
 }
-@media(min-width:770px){
-  .modal-sub-title-1{
+@media (min-width: 770px) {
+  .modal-sub-title-1 {
     font-size: 16px;
   }
-  .modal-sub-title-2{
+  .modal-sub-title-2 {
     font-size: 20px;
   }
 }

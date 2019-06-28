@@ -37,7 +37,7 @@
 }
 
 h2, h3{
-  font-family:"DIN 2014", "Ropa Sans";
+  font-family:"DIN alternate", "Ropa Sans";
   font-size:50px;
 }
 h2{
@@ -54,6 +54,30 @@ h3{
   z-index: 100;
 }
 /* Projects Platform */
+figure {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: 160.55px;
+}
+figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 230px;
+  height: 160.5px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  text-align: center;
+  display: table;
+}
+.project-name a {
+  color: #707070;
+}
 .pj-platform-container{
   display: flex;
   flex-direction: row;
@@ -61,13 +85,31 @@ h3{
   justify-content: center;
   margin:80px auto 0 auto;
 }
+
 .project-example{
   width:230px;
   height:345px;
   padding:0;
   margin:0 30px 96px 30px;
   border-radius: 20px;
+  background-color: white;
   box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
+}
+@media(max-width: 770px){
+  .project-example{
+    margin: 0 20px 40px 20px;
+    }
+   h2{
+     font-size: 25px;
+   }
+}
+@media(min-width:770px) {
+  .project-example{
+    margin:0 20px 40px 20px;
+  }
+  h2{
+    font-size: 35px;
+  }
 }
 .project-image{
   width: 100%;
@@ -79,29 +121,41 @@ h3{
   margin: 0;
   border: solid 1px #f5f5f5;
 }
-.project-name{
-  padding:20px 20px;
-  margin:0;
-  height: 22px;
-  font-family: YuGo;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.7;
+.project-name {
   text-align: left;
+  padding: 8px;
+  margin: 0;
+  font-family: DIN Alternate,"游ゴシック",Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
   color: #000000;
 }
-.project-description{
+.project-discription {
   width: 190px;
   height: 180px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
-  font-family: YuGo;
+  font-style: normal;
+  font-stretch: normal;
   line-height: 1.67;
+  letter-spacing: normal;
   text-align: left;
-  position:absolute;
+  position: absolute;
   color: #707070;
   padding: 4px 20px;
   margin-top: 0;
+  font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+    "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+
+.project-name a {
+  color: #707070;
 }
 .square_btn {
     display: block;
@@ -153,7 +207,7 @@ h3{
   color:#73ABFF;
   font-family: Arial;
   text-align: center;
-  padding-top:80px;
+  padding-top:100px;
   font-size: 11px;
 }
 
