@@ -416,8 +416,7 @@ header a {
 }
 
 @media(max-width:815px) {
-    .content-wrapper,
-    .content-wrapper-top {
+    .content-wrapper {
         width: 80%;
     }
     .partners-container {
