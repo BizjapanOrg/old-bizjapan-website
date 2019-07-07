@@ -3,10 +3,30 @@
 .whatwedo-text p {
     color: #fff;
 }
+
+.top-wrapper{
+    height:100%;
+    overflow: hidden;
+}
+
+.top-word{
+    width: 65%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+@media(max-width: 770px) {
+    .top-word{
+        width: 100%;
+    }
+}
+
 /* About usのCSS */
 
 .aboutus-wrapper {
-    position: relative;
     background-color: #FFFFFF;
     width: 100%;
 }
@@ -20,12 +40,20 @@
     z-index: 100;
 }
 
-#takuno,
-#takuno-mobile {
+#takuno{
     display: none;
     position: absolute;
     width: 55%;
-    right: 10.156%;
+    right: -10%;
+    bottom: -30%;
+    z-index: 2;
+}
+
+#takuno-mobile{
+    display: none;
+    position: absolute;
+    width: 55%;
+    right: 0;
     bottom: 0;
     z-index: 2;
 }
@@ -86,6 +114,11 @@ figcaption {
     opacity: 0;
     text-align: center;
     display: table;
+}
+
+.pj-platform-wrapper{
+    padding-top: 20%;
+    min-height: auto;
 }
 
 .project-name a {
