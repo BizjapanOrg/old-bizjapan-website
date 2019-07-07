@@ -49,7 +49,7 @@
                         <li><a class="fadelink" href="./projects/index.html">PROJECTS</a></li>
                         <li><a class="fadelink" href="./profile/index.html">PROFILE</a></li>
                         <li><a class="fadelink" href="./report/index.html">REPORT</a></li>
-                        <li><a class="fadelink" href="https://sites.google.com/bizjapan.org/spring-recruiting/home">JOIN</a></li>
+                        <li><a class="fadelink" href="https://sites.google.com/bizjapan.org/recruiting-en/home">JOIN</a></li>
                         <li><a href="#link-contact-en">CONTACT</a></li>
                         <li><a class="fadelink language" href="../index.html">JAPANESE</a></li>
                     </ul>
@@ -67,7 +67,7 @@
         <div class="aboutus-wrapper">
             <div class="content-wrapper">
                 <a id="link-about-en" class="anchor">
-                    <h1 class="title title-effect aboutus-title">About US</h1>
+                    <h1 class="title title-effect aboutus-title">About Us</h1>
                 </a>
                 <img src="../img/SVG/pulse.svg" class="pulse">
                 <div class="text aboutus-text">
@@ -162,7 +162,7 @@
                     </div>
                     <div class="accbox">
                         <input type="checkbox" id="label1" class="cssacc" />
-                        <label for="label1" class="square_btn">他のパートナーを見る</label>
+                        <label for="label1" class="square_btn">Learn More</label>
                         <div class="accshow">
                             <div class="partners-container">
                                 <div class="partner-card">
@@ -188,8 +188,7 @@
                     </div>
                 </div>
             </div>
-
-            <!-- contact -->
+            <!--Contact-->
             <div class="contact-wrapper">
                 <div class="content-wrapper">
                     <a id="link-contact-en" class="anchor">
@@ -197,19 +196,69 @@
                     </a>
                     <p class="text contact-p">Confirmation email will be sent automatically in minutes. If you do not have any email, please contact <a class="know-more-tag know-more-tag-join" href="mailto:info&#64;bizjapan.com">here.</a></p>
 
-                    <form id="mailformpro">
-                        <p class="text">NAME</p>
-                        <input type="text" name="name" id="name-form" required="required">
-                        <p class="text">MAIL ADDRESS</p>
-                        <input type="email" name="email" id="mail-form" required="required">
-                        <p class="text">COMPANY/ORGANIZATION</p>
-                        <input type="text" name="company/organization" id="company-organization-form" required="required" />
-                        <p class="text">CONTENT</p>
-                        <textarea name="contents" id="textarea" required="required"></textarea>
-                        <button type="submit" class="square_btn" style="width:230px; height:40px;">Send</button>
-                    </form>
-                    <script src="../contact/mailformpro/mailformpro.cgi" id="mfpjs"></script>
+                  <!-- Create a new form. -->
+                  <script type="text/javascript">
+                    var submitted = false;
+                    var target = document.getElementsById('hidden_iframe');
+                  </script>
+                  <iframe
+                    name="hidden_iframe"
+                    id="hidden_iframe"
+                    width="0"
+                    height="0"
+                    name="dummyframe"
+                    id="dummyframe"
+                    style="display:none;"
+                    onload="if(submitted) {
+                    target.style.display = 'block';
+                  }"
+                  ></iframe>
+                  <form
+                    id="form"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLScXUlgjMW1PbzsaeOjXm9OfhKS480FOb7b4SRBTvQzlYPIOjQ/formResponse"
+                    method="post"
+                    target="hidden_iframe"
+                    onsubmit="submitted=true;"
+                  >
+                    <label for="name" class="text">Name</label>
+                    <input
+                      type="text"
+                      name="entry.907722899"
+                      id="name-form"
+                      required="required"
+                    />
+                    <label for="email" class="text">Mail Address</label>
+                    <input
+                      type="email"
+                      name="entry.20937901"
+                      id="mail-form"
+                      required="required"
+                    />
+                    <label for="organization" class="text">Organization</label>
+                    <input
+                      type="text"
+                      name="entry.1948331145"
+                      id="company-organization-form"
+                      required="required"
+                    />
+                    <label for="msg" class="text">Contents</label>
+                    <textarea
+                      name="entry.195714030"
+                      id="textarea"
+                      required="required"
+                    ></textarea>
+                    <button
+                      type="submit"
+                      value="Submit"
+                      class="square_btn"
+                      style="width:230px; height:40px;"
+                      onclick="location.href='./thanks.html'"
+                    >
+                      Send
+                    </button>
+                  </form>
                 </div>
+              </div>
             </div>
         </div>
         <!--メインここまで -->
@@ -245,7 +294,7 @@
                     </div>
                     <div class="nav-footer-right">
                         <ul>
-                            <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/spring-recruiting/home">-JOIN</a></li>
+                            <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/recruiting-en/home">-JOIN</a></li>
                             <li>
                                 <a href="#link-contact-en">-CONTACT</a>
                             </li>
