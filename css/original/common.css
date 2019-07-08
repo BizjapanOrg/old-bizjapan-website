@@ -38,7 +38,10 @@
 html,
 body {
     height: 100%;
+    width:100%;
     margin: 0;
+    padding: 0;
+
 }
 
 .main {
@@ -131,7 +134,15 @@ header a {
     margin-top: 60px;
 }
 
+.wrapper{
+    min-height: 100%;
+    height: auto;
+    width:100%;
+    position: relative;
+}
+
 .content-wrapper,
+.content-wrapper-top,
 .pulse,
 .text,
 .title,
@@ -152,6 +163,17 @@ header a {
     width: 65%;
     padding: 7.81% 0;
     position: static;
+}
+
+.content-wrapper-top {
+    box-sizing: border-box;
+    min-width: 260px;
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
 .content-wrapper-2 {
@@ -361,6 +383,11 @@ header a {
     vertical-align: bottom;
 }
 
+.top-image2 {
+    height: 100%;
+    min-width:100%;
+}
+
 .copyright,
 .nav-footer ul {
     clear: both;
@@ -448,7 +475,6 @@ header a {
 footer {
     background-color: #707070;
     width: 100%;
-    height: 444px;
     position: relative;
     overflow: hidden;
 }
