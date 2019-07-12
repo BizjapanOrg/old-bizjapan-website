@@ -123,8 +123,8 @@ $(function() {
     $('#africa-show').click(function() {
         $('#africa-modal').fadeIn();
     });
-    $('#zeroichishinia-show').click(function() {
-        $('#zeroichishinia-modal').fadeIn();
+    $('#zeroichisenior-show').click(function() {
+        $('#zeroichisenior-modal').fadeIn();
     });
 
     // Past ProjectsのModalの表示
