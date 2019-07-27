@@ -479,7 +479,8 @@ footer {
 
 .footer-wrapper {
     overflow: hidden;
-    margin: 3vw 7.81vw;
+    padding: 5% 10%;
+    width:80%;
     font-family: Arial, Helvetica, "sans-serif";
 }
 
@@ -513,6 +514,7 @@ footer .logo {
     position: relative;
     overflow: hidden;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .nav-footer li {
@@ -540,30 +542,13 @@ footer .logo {
   width:100px;
 }
 
-
-.copyright {
-  width: 175px;
-  height: 17px;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.13;
-  letter-spacing: 0.8px;
-  text-align: right;
-  color: rgb(255, 255, 255);
-  padding-right: 364px;
-}
-
-
 .sns-logo{
   text-align: center;
+  padding-top: 20px;
 }
 .sns-logo img{
   justify-content: center;
-  padding-right: 60px;
-  padding-left: 60px;
+  padding: 20px 60px 0px 60px;
   max-width:100%;
   height:auto;
 }
@@ -589,37 +574,38 @@ a.anchor{
     line-height: 1.13;
     letter-spacing: normal;
     color: rgb(255, 255, 255);
-    padding: 20px 40px 0px 60px;
+    padding: 20px 0px 0px 0px;
     display: list-item;
     text-decoration: none;
     width: 100px;
+    }
+    li{
+        padding: 0;
+    }
+    .sns-logo img {
+        justify-content: center;
+        max-width: 100%;
+        padding: 0 15px;
+        height: 16vw;
+    }
 }
 
 .copyright {
-    width: 175px;
-    height: 17px;
+    text-align: center;
+    padding-top: 20px;
     font-family: Arial;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.13;
     letter-spacing: 0.8px;
-    text-align: right;
     color: rgb(255, 255, 255);
     padding-right: 364px;
 }
 
 .sns-logo {
     text-align: center;
-}
-
-.sns-logo img {
-    justify-content: center;
-    padding-right: 60px;
-    padding-left: 60px;
-    max-width: 100%;
-    height: auto;
 }
 
 .bizjapan-text {
@@ -632,49 +618,6 @@ a.anchor {
     display: block;
     padding-top: 70px;
     margin-top: -70px;
-}
-
-@media(max-width:815px) {
-    .nav-footer a {
-        font-size: 13px;
-        position: relative;
-        font-family: Arial;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.13;
-        letter-spacing: normal;
-        color: rgb(255, 255, 255);
-        padding: 10px 20px 25px 40px;
-        display: list-item;
-        text-decoration: none;
-        width: 100px;
-    }
-    .sns-logo img {
-        justify-content: center;
-        padding-right: 40px;
-        padding-left: 40px;
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-@media(min-width:815px) {
-    .nav-footer a {
-        font-size: 14px;
-        position: relative;
-        font-family: Arial;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.13;
-        letter-spacing: normal;
-        color: rgb(255, 255, 255);
-        padding: 20px 40px 0px 60px;
-        display: list-item;
-        text-decoration: none;
-        width: 100px;
-    }
 }
 
 .project-image {
@@ -699,4 +642,4 @@ a.anchor {
     border: 1px #d5d5d5;
     border-radius: 9px;
     display: block;
-}}}}}}
+}
