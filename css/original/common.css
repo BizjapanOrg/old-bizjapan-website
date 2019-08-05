@@ -86,7 +86,6 @@ header .logo {
 
 
 /* もっと知る */
-
 .know-more {
     text-align: center;
     line-height: 40px;
@@ -128,7 +127,6 @@ header a {
 
 
 /* 以下Main中のもの */
-
 .main {
     overflow: hidden;
     margin-top: 60px;
@@ -231,6 +229,11 @@ header a {
     border-radius: 20px;
     filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.16));
     transition: .4s;
+}
+
+.square_btn:hover {
+    background: #9e9e9e;
+    color: #fff;
 }
 
 @media(max-width:815px) {
