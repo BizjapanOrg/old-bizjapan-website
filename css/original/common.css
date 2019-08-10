@@ -662,3 +662,9 @@ a.anchor {
   border-radius: 9px;
   display: block;
 }
+.partners-wrapper{
+    
+    height: auto;
+    width: 100%;
+    position: relative;
+}
