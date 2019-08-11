@@ -70,16 +70,6 @@ h2 {
     color: #000000;
 }
 
-#mxspace-show-p,
-#jj-show-p,
-#nichy-show-p {
-    color: #73ABFF;
-    font-family: Arial;
-    text-align: center;
-    padding-top: 100px;
-    font-size: 11px;
-}
-
 .recruitment-image {
     display: block;
     width: 100%;
@@ -182,6 +172,7 @@ figcaption div {
 }
 
 .projectwithstories-wrapper {
+    display:none;
     width: 100%;
     opacity: 0.85;
     border: solid 1px #707070;
