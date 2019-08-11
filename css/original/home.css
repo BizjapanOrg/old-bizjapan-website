@@ -92,29 +92,6 @@ h3 {
 }
 /* Projects Platform */
 
-figure {
-    margin: 0;
-    position: relative;
-    overflow: hidden;
-    width: auto;
-    height: 160.55px;
-}
-
-figcaption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    width: 230px;
-    height: 160.5px;
-    background: rgba(0, 0, 0, 0.6);
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    opacity: 0;
-    text-align: center;
-    display: table;
-}
-
 .pj-platform-wrapper{
     min-height: auto;
     padding-top: 7.81%
@@ -201,16 +178,6 @@ figcaption {
     padding: 4px 20px;
     margin-top: 0;
     font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
-
-#mxspace-show-p,
-#jj-show-p,
-#nichy-show-p {
-    color: #73ABFF;
-    font-family: Arial;
-    text-align: center;
-    padding-top: 100px;
-    font-size: 11px;
 }
 
 .project-name a {
