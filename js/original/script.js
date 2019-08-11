@@ -186,7 +186,7 @@ $(function() {
             $('body,html').css({ "overflow": "hidden", "height": "100%" });
         } else {
             $('.nav-wrapper').fadeOut();
-            $('body,html').css({ "overflow": "visible", "height": "auto" });
+            $('body,html').css({ "overflow": "visible", "height": "100%" });
         }
     });
 });
