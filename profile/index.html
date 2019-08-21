@@ -2,20 +2,21 @@
 <html>
 
 <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/65e2ae629f.js"></script>
+        <script src="../js/script.min.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="../css/chartist.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/original/common.css" />
     <link rel="stylesheet" type="text/css" href="../css/original/profile.css" />
-</head>
-
-<body>
+  </head>
+  <body class="is-hide">
     <header class="site-header">
         <div class="header-area">
             <!-- ヘッダーロゴ画像 -->
-            <div class="header-area-left">
                 <a href="../index.html">
                     <img class="logo fadelink" src="../img/logo/logo.png">
                 </a>
-            </div>
+            
             <!-- モバイル用のハンバーガー -->
             <div class="toggle"><span></span> <span></span> <span></span></div>
 
@@ -23,68 +24,55 @@
             <div class="nav-wrapper">
                 <div class="nav">
                     <ul>
-                        <li><a href="../index.html#name">ABOUT</a></li>
+                        <li><a href="#link-about">ABOUT</a></li>
                         <li><a class="fadelink" href="../projects/index.html">PROJECTS</a></li>
                         <li><a class="fadelink" href="../profile/profile.html">PROFILE</a></li>
                         <li><a class="fadelink" href="https://sites.google.com/bizjapan.org/recruiting-jp/home">JOIN</a></li>
-                        <li><a href="../index.html#link-contact">CONTACT</a></li>
-                        <li><a class="fadelink language" href="./en/">ENGLISH</a></li>
+                        <li><a href="#link-contact">CONTACT</a></li>
+                        <li><a class="fadelink language" href="../en/index.html">ENGLISH</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
-    <div class="main">
+    <div class ="main">
         <div class="content-wrapper profile-wrapper">
             <h1 class="title title-effect">From President</h1>
             <div class="content-box clearfix">
-                <div class="president-left">
-                    <img src="../img/190511welcome_party4.jpg" alt="">
+                <div class ="president-hero">
+                    <img src="../img/president-hero.jpg">
                 </div>
-                <div class="president-right">
+                <div >
                     <p>この団体は「組織」ではありません。一人一人の行動がBizjapanという場所そのものを説明する、そんな集団です。時に個人で、時に共創しながらメンバー一人一人が自分の道を切り開くことで、この団体は確実に次のステージに進みます。各メンバーが思い思いの絵を描く、そのための「白い紙」を引き続ける作業こそが運営であり、その絵全体が団体であると僕は考えます。
-                        <p>多方向からの「面白い！」「やりたい！」がより自由な形で飛び込み、花ひらき、巣立つ溜まり場として。居心地の良さと緊張感が同居する空気の中で、どんな縛りにも囚われず新しいことに果敢に挑戦する集団として。自らの手で、足で、背中で社会を動かす、そんなgame changerを育み輩出する基地として。</p>
-                        <p>"Because we love it."の標語のもと、必ずはっきりと目に見える形でその価値を証明しにいく所存です。</p>
+                    <p>多方向からの「面白い！」「やりたい！」がより自由な形で飛び込み、花ひらき、巣立つ溜まり場として。居心地の良さと緊張感が同居する空気の中で、どんな縛りにも囚われず新しいことに果敢に挑戦する集団として。自らの手で、足で、背中で社会を動かす、そんなgame changerを育み輩出する基地として。</p>
+                    <p>"Because we love it."の標語のもと、必ずはっきりと目に見える形でその価値を証明しにいく所存です。</p>
+                    <p class="president-signature">Bizjapan 6期生 代表 北村仁</p>
                 </div>
             </div>
         </div>
-
-        <div class="content-wrapper profile-wrapper">
+        <div class= "content-wrapper profile-wrapper">
             <h1 class="title title-effect"> Analysis of Bizjapan Members</h1>
             <div class="content-box">
-                <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
                 <h3>メンバー推移</h3>
-                <div class="chart">
-                    <div class="ct-chart ct-chart-lines ct-perfect-fourth"></div>
-                </div>
-            </div>
-
-            <div class="content-box">
+                <div class="chart ct-chart ct-chart-lines ct-perfect-fourth"></div>
                 <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+            </div>
+            <div class="content-box">
                 <h3>国籍</h3>
-                <div class="chart">
-                    <a class="ct-chart ct-chart-pie-1 ct-perfect-fourth"></a>
-                </div>
+                <div class="chart ct-chart ct-chart-pie-nationality ct-perfect-fourth"></div>
+                <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
             </div>
             <div class="content-box">
-                <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
                 <h3>大学</h3>
-                <div class="chart">
-                    <a class="ct-chart ct-chart-pie-4 ct-perfect-fourth"></a>
-                </div>
+                <div class="chart ct-chart ct-perfect-fourth" id="ct-university"></div>
+                <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
             </div>
-
             <script src="../js/chartist.min.js"></script>
             <script src="../js/original/chartist.js"></script>
-
-
         </div>
-        <div class="basic-data">
-
         <div class = "content-wrapper profile-wrapper last-wrapper">
                 <h1 class="title title-effect">Basic data of Bizjapn</h1>
                 <div class="content-box">
-                    <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
                     <table>
                         <tr>
                             <th>正式名称</th>
@@ -119,7 +107,7 @@
                     <ul>
 
                         <li>
-                            <a href="../index.html#link-about">-ABOUT</a>
+                            <a href="#link-about">-ABOUT</a>
                         </li>
                         <li>
                             <a class="fadelink text" href="../projects/index.html">-PROJECTS</a>
@@ -140,10 +128,13 @@
                     <ul>
                         <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/recruiting-jp/home">-JOIN</a></li>
                         <li>
-                            <a href="../index.html#link-contact">-CONTACT</a>
+                            <a href="#link-contact">-CONTACT</a>
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div class="copyright text">
+                <p>Social Media</p>
             </div>
             <div class="sns-logo">
                 <a href="https://twitter.com/bizjapanorg"><img src="../img/footer/twitter-logo.png"></a>

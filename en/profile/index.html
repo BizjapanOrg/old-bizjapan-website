@@ -2,290 +2,182 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.10.1/chartist.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/65e2ae629f.js"></script>
+        <script src="../js/script.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/chartist.min.css" />
     <link rel="stylesheet" type="text/css" href="../../css/original/common.css" />
-
-
-    <style>
-        /* DEMO STYLES */
-
-        body {
-            font-family: DIN alternate, 游ゴシック体;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        h3 {
-            text-align: center;
-            font-size: 16px;
-        }
-
-        .number {
-            margin: auto;
-            width: 50%;
-            min-height: 400px;
-        }
-
-        .row {
-            max-width: 1280px;
-            margin: 0 auto;
-            clear: both;
-        }
-
-        .col {
-            float: left;
-            width: 50%;
-            min-height: 300px;
-            padding: 40px 0;
-        }
-
-        .ct-label {
-            font-size: .8rem !important;
-            fill: black;
-        }
-
-        .ct-chart-pie,
-        .ct-chart-donut {
-            width: 300px;
-        }
-
-        .basic-data {
-            padding: 70px 0 30px 0;
-        }
-
-        @media(max-width:1000px) {
-            h3 {
-                font-size: 12px;
-            }
-            h1 {
-                font-size: 20px;
-            }
-            .ct-label {
-                font-size: 0.5rem !important;
-            }
-        }
-
-        .annual-report {
-            text-align: center;
-        }
-
-        .from-president {
-            height: 450px;
-            padding: 30px 200px 0 200px;
-            position: relative;
-        }
-
-        .from-president img {
-            width: 70%;
-            height: 70%;
-            display: block;
-            padding-left: 0px;
-        }
-
-        .president-left {
-            float: left;
-            width: 35%;
-            justify-content: center;
-        }
-
-        .president-right {
-            float: right;
-            width: 65%;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="../../css/original/profile.css" />
 </head>
-
-<body>
+<body class="is-hide">
+    <!--ヘッダーここから -->
+    <header class ="site-header">
+        <div class="header-area">
+        <!-- ヘッダーロゴ画像　-->
+        <a href="../index.html"><img class = "logo fadelink" src="../../img/logo/logo.png"></a>
+    
+            <!-- モバイル用のハンバーガー -->
+            <div class="toggle">
+                <span></span>
+              <span></span>
+              <span></span>
+            </div>
+    
+            <!-- ナビの内容 -->
+            <div class="nav-wrapper">
+                <div class="nav">
+                    <ul>
+                        <li><a href="#link-about-en" >ABOUT</a></li>
+                        <li><a class="fadelink" href="./index.html" >PROJECTS</a></li>
+                        <li><a class="fadelink" href="../profile/index.html" >PROFILE</a></li>
+                        <li><a class="fadelink" href="../report/index.html" >REPORT</a></li>
+                        <li><a class="fadelink" href="https://sites.google.com/bizjapan.org/recruiting-en/home" >JOIN</a></li>
+                        <li><a href="#link-contact-en" >CONTACT</a></li>
+                        <li><a class="fadelink language" href="../index.html">JAPANESE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--ヘッダーここまで -->
     <header class="site-header">
         <div class="header-area">
             <!-- ヘッダーロゴ画像 -->
-            <div class="header-area-left">
                 <a href="../index.html">
                     <img class="logo fadelink" src="../../img/logo/logo.png">
                 </a>
-            </div>
+            
             <!-- モバイル用のハンバーガー -->
             <div class="toggle"><span></span> <span></span> <span></span></div>
 
             <!-- ナビの内容 -->
             <div class="nav-wrapper">
-                    <div class="nav">
-                            <ul>
-                                <li><a href="../index.html#link-about-en">ABOUT</a></li>
-                                <li><a class="fadelink" href="../projects/index.html">PROJECTS</a></li>
-                                <li><a class="fadelink" href="./index.html">PROFILE</a></li>
-                                <li><a class="fadelink" href="../report/index.html">REPORT</a></li>
-                                <li><a class="fadelink" href="https://sites.google.com/bizjapan.org/spring-recruiting/home">JOIN</a></li>
-                                <li><a href="../index.html#link-contact-en">CONTACT</a></li>
-                                <li><a class="fadelink language" href="../../index.html">JAPANESE</a></li>
-                            </ul>
-                        </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="../../index.html#about">ABOUT</a></li>
+                        <li><a class="fadelink" href="../../projects/index.html">PROJECTS</a></li>
+                        <li><a class="fadelink" href="../profile/profile.html">PROFILE</a></li>
+                        <li><a class="fadelink" href="https://sites.google.com/bizjapan.org/recruiting-jp/home">JOIN</a></li>
+                        <li><a href="../index.html#link-contact">CONTACT</a></li>
+                        <li><a class="fadelink language" href="./en/">ENGLISH</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
-    <div class="main">
-        <div class="from-president">
-            <div class="president-name">
-                <h1>~From President~</h1>
-            </div>
-            <div class="president-left">
-                <img src="../../img/hitoshi.jpg" alt="">
-            </div>
-            <div class="president-right">
-                <p>この団体は「組織」ではありません。一人一人の行動がBizjapanという場所そのものを説明する、そんな集団です。時に個人で、時に共創しながらメンバー一人一人が自分の道を切り開くことで、この団体は確実に次のステージに進みます。各メンバーが思い思いの絵を描く、そのための「白い紙」を引き続ける作業こそが運営であり、その絵全体が団体であると僕は考えます。
+    <div class ="main">
+        <div class="content-wrapper profile-wrapper">
+            <h1 class="title title-effect">From President</h1>
+            <div class="content-box clearfix">
+                <div class ="president-hero">
+                    <img src="../../img/president-hero.jpg">
+                </div>
+                <div >
+                    <p>この団体は「組織」ではありません。一人一人の行動がBizjapanという場所そのものを説明する、そんな集団です。時に個人で、時に共創しながらメンバー一人一人が自分の道を切り開くことで、この団体は確実に次のステージに進みます。各メンバーが思い思いの絵を描く、そのための「白い紙」を引き続ける作業こそが運営であり、その絵全体が団体であると僕は考えます。
                     <p>多方向からの「面白い！」「やりたい！」がより自由な形で飛び込み、花ひらき、巣立つ溜まり場として。居心地の良さと緊張感が同居する空気の中で、どんな縛りにも囚われず新しいことに果敢に挑戦する集団として。自らの手で、足で、背中で社会を動かす、そんなgame changerを育み輩出する基地として。</p>
                     <p>"Because we love it."の標語のもと、必ずはっきりと目に見える形でその価値を証明しにいく所存です。</p>
-            </div>
-        </div>
-
-        <div class="gragh">
-            <h1> ~Analysis of Bizjapan Members~</h1>
-            <div class="number">
-                <h3>メンバー推移</h3>
-                <div class="ct-chart ct-chart-lines ct-perfect-fourth"></div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h3>国籍</h3>
-                    <div class="ct-chart ct-chart-pie-1 ct-perfect-fourth"></div>
-                </div>
-                <div class="col">
-                    <h3>大学</h3>
-                    <div class="ct-chart ct-chart-pie-4 ct-perfect-fourth"></div>
+                    <p class="president-signature">Bizjapan 6th batch President Hitoshi Kitamura</p>
                 </div>
             </div>
         </div>
-
-        <!--使わない
-                    <div class="col">
-                        <h3>男女比</h3>
-                        <div class="ct-chart ct-chart-pie-2 ct-perfect-fourth"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <h3>理系文系比</h3>
-                            <div class="ct-chart ct-chart-pie-3 ct-perfect-fourth"></div>
-                        </div>
-                        <div class="col">
-                            <h3>入部時学年</h3>
-                            <div class="ct-chart ct-chart-pie-5 ct-perfect-fourth"></div>
-                        </div>
-                    </div>
-                    -->
-
-        <div class="annual-report">
-            <h1>~Annual Report 2018~</h1>
-            <iframe src="https://drive.google.com/file/d/1_LXdGGgBX0xEBtHG1tGADkZucvruA7D4/preview" width="1000px" height="500px"></iframe>
+        <div class= "content-wrapper profile-wrapper">
+            <h1 class="title title-effect"> Analysis of Bizjapan Members</h1>
+            <div class="content-box">
+                <h3>Membership</h3>
+                <div class="chart ct-chart ct-chart-lines ct-perfect-fourth"></div>
+                <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+            </div>
+            <div class="content-box">
+                <h3>Nationality</h3>
+                <div class="chart ct-chart ct-chart-pie-nationality ct-perfect-fourth"></div>
+                <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+            </div>
+            <div class="content-box">
+                <h3>University</h3>
+                <div class="chart ct-chart ct-perfect-fourth" id="ct-university"></div>
+                <p class="profile-text">ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。</p>
+            </div>
+            <script src="../../js/chartist.min.js"></script>
+            <script src="../../js/original/chartist.js"></script>
         </div>
-        <div class="basic-data">
-
-            <h1> ~Basic data of Bizjapn~</h1>
-            <h3>正式名称：特定非営利活動法人Bizjapan</h3>
-            <h3>創立者：林志洋</h3>
-            <h3>設立認定年月日：2016年11月24日</h3>
-            <h3>事務所：東京都文京区本郷5丁目25番16号　本郷BAMBIビル303</h3>
-
+        <div class = "content-wrapper profile-wrapper last-wrapper">
+                <h1 class="title title-effect">Basic data of Bizjapn</h1>
+                <div class="content-box">
+                    <table>
+                        <tr>
+                            <th>Official Name</th>
+                            <td>Non profit organization Bizjapan</td>
+                        </tr>
+                        <tr>
+                            <th>Founder</th>
+                            <td>Sho Hayashi</td>
+                        </tr>
+                        <tr>
+                            <th>Establishment</th>
+                            <td>24th, November, 2016</td>
+                        </tr>
+                        <tr>
+                            <th>Office</th>
+                            <td>303, Hongo-BAMBI-Building, 5-25-16, Hongo, Bunkyo-ku, Tokyo</td>
+                        </tr>
+                    </table>
+                </div>
         </div>
 
     </div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.10.1/chartist.min.js"></script>
-    <script>
-        var data = {
-            labels: ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019'],
-            series: [{
-                name: 'series-3',
-                data: [4, 31, 59, 90, 100, 145, 191, 216]
-            }]
-        };
+    <footer>
+        <div class="footer-wrapper">
+            <div class="copyright text">
+                <p>©2019 NPO Bizjapan</p>
+            </div>
+            <div class="nav-footer">
+                <div class="nav-footer-left">
+                    <ul>
 
-        var options = {
-            chartPadding: {
+                        <li>
+                            <a href="#link-about-en">-ABOUT</a>
+                        </li>
+                        <li>
+                            <a class="fadelink text" href="../../projects/index.html">-PROJECTS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-footer-center">
+                    <ul>
+                        <li>
+                            <a class="fadelink text" href="../../profile/index.html">-PROFILE</a>
+                        </li>
+                        <li>
+                            <a class="fadelink text" href="../../report/index.html">-REPORT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-footer-right">
+                    <ul>
+                        <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/recruiting-jp/home">-JOIN</a></li>
+                        <li>
+                            <a href="link-contact-en">-CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright text">
+                <p>Social Media</p>
+            </div>
+            <div class="sns-logo">
+                <a href="https://twitter.com/bizjapanorg"><img src="../../img/footer/twitter-logo.png"></a>
+                <a href="https://www.facebook.com/Bizjapan.org/"><img src="../../img/footer/facebook-logo.png"></a>
+                <a href="https://note.mu/bizjapan"><img src="../../img/footer/note-logo.png"></a>
+            </div>
+            <div class="bizjapan-text">
+                <a href="./index.html"><img src="../../img/footer/8-1.png"></a>
+            </div>
+        </div>
 
-            }
-        };
-        new Chartist.Line('.ct-chart-lines', data, options);
-
-
-        new Chartist.Pie('.ct-chart-pie-1', {
-            labels: ['ヨーロッパ', '台湾', 'その他', '日本', '中国', 'アメリカ', '韓国', 'シンガポール', ],
-            series: [3, 3, 4, 174, 12, 5, 5, 5, ]
-        }, {
-            labelOffset: 120,
-            labelDirection: "explode",
-            chartPadding: 25,
-            chartmargin: 40,
-            startAngle: 130
-
-        });
-
-
-        new Chartist.Pie('.ct-chart-pie-4', {
-            labels: ['上智大学', '国際基督教大学', 'その他', '東京大学', '慶應義塾大学', '早稲田大学'],
-            series: [2.0, 3.4, 2.0, 62.7, 17.6, 12.3]
-        }, {
-            labelOffset: 120,
-            labelDirection: "explode",
-            chartPadding: 25,
-            chartmargin: 40,
-            startAngle: 130
-        });
-    </script>
+    </footer>
+    <!-- フッターここまで -->
 </body>
-<!-- フッターここから -->
-<footer>
-    <!-- footerのロゴ部分 -->
-    <div class="footer-wrapper">
-        <!-- copyright -->
-        <div class="copyright text">
-            <p>©2019 NPO Bizjapan</p>
-        </div>
-        <!-- footerのボタン部分 -->
-        <div class="nav-footer">
-            <div class="nav-footer-left">
-                <ul>
-                    <li>
-                        <a href="../index.html#link-about-en">-ABOUT</a>
-                    </li>
-                    <li>
-                        <a class="fadelink text" href="../projects/index.html">-PROJECTS</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-footer-center">
-                <ul>
-                    <li>
-                        <a class="fadelink text" href="../profile/index.html">-PROFILE</a>
-                    </li>
-                    <li>
-                        <a class="fadelink text" href="../report/index.html">-PROJECTS</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-footer-right">
-                <ul>
-                    <li><a class="fadelink text" href="https://sites.google.com/bizjapan.org/recruiting-en/home">-JOIN</a></li>
-                    <li>
-                        <a href="../index.html#link-contact-en">-CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="sns-logo">
-        <a href="https://twitter.com/bizjapanorg"><img src="../../img/footer/twitter-logo.png"></a>
-        <a href="https://www.facebook.com/Bizjapan.org/"><img src="../../img/footer/facebook-logo.png"></a>
-        <a href="https://note.mu/bizjapan"><img src="../../img/footer/note-logo.png"></a>
-    </div>
-    <div class="bizjapan-text">
-        <a href="../index.html"><img src="../../img/footer/8-1.png"></a>
-    </div>
-
-
-</footer>
-<!-- フッターここまで -->
 
 </html>
