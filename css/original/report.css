@@ -8,7 +8,7 @@ h1 {
     font-family: DIN alternate, 游ゴシック体;
 }
 p{
-    text-align: center;
+    line-height: 32px;
 }
 .top-image3 {
     height: auto;
