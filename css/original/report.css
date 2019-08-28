@@ -1,7 +1,5 @@
 @charset "UTF-8";
-.annual-report {
-    text-align: center;
-}
+
 
 h1 {
     text-align: center;
@@ -9,6 +7,7 @@ h1 {
 }
 p{
     line-height: 32px;
+    padding-bottom:30px;
 }
 .top-image3 {
     height: auto;
