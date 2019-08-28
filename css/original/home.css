@@ -33,29 +33,9 @@
 .aboutus-text {
     position: relative;
     padding: 0 0 44px 0;
-    width: 70%;
-    margin-left: 0;
-    margin-right: auto;
     z-index: 100;
 }
 
-#takuno{
-    display: none;
-    position: absolute;
-    width: 55%;
-    right: -10%;
-    bottom: -30%;
-    z-index: 2;
-}
-
-#takuno-mobile{
-    display: none;
-    position: absolute;
-    width: 55%;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-}
 /* Our ValuesのCSS */
 
 .ourvalues-wrapper {
@@ -230,11 +210,6 @@ h3 {
     margin: 0;
 }
 
-.partners-discription {
-    text-align: center;
-    margin: 60px 0 40px 0;
-}
-
 .partner-card {
     display: block;
     width: 30vw;
@@ -314,15 +289,12 @@ input[type=email] {
     background: rgba(255, 255, 255, 0);
 }
 
-.contact-p {
-    margin: 15px 0 0 0;
+.partners-p, .contact-p {
+    margin: 20px 0 0 0;
     text-align: center;
 }
 
 @media(max-width:770px) {
-    #takuno-mobile {
-        display: block;
-    }
     .project-example {
         margin: 0 20px 40px 20px;
     }
@@ -335,9 +307,6 @@ input[type=email] {
 }
 
 @media(min-width:770px) {
-    #takuno {
-        display: block;
-    }
     .project-example {
         margin: 0 20px 40px 20px;
     }

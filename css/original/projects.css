@@ -69,6 +69,10 @@ h2 {
     text-align: center;
     color: #000000;
 }
+.project-name-long{
+  font-size:13px;
+  padding-top:10px;
+}
 
 .recruitment-image {
     display: block;
