@@ -1,10 +1,4 @@
 /* Profile */
-img {
-    width:auto;
-    height:auto;
-    max-width:100%;
-    max-height:100%;
-}
 h3{ 
     text-align:center;
     font-size:16px;
@@ -20,11 +14,12 @@ h3{
 }
 .chart{
     width:75%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 .basic-data{
     padding: 70px 0 30px 0;
 }
+
 
 @media(max-width:1000px){
     h3{
@@ -44,6 +39,24 @@ h3{
     position:relative;
 }
 
+.president-hero{
+    padding-bottom: 40px;
+    width:100%;
+    text-align: center;
+}
+
+.president-hero img {
+    width:100%;
+    border-radius: 20px 20px;
+}
+
+.president-signature{
+    font-weight: 550;
+    font-size: 1.2rem;
+    text-align: right;
+    font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
+}
+
 .annual-report{
     text-align: center;
 }
@@ -58,18 +71,6 @@ h3{
 
 .profile-text{
     margin-bottom:40px;
-}
-
-.president-left{
-    float:left;
-    width:25%;
-    padding-bottom: 16px;
-    bottom:0;
-    position:absolute;
-}
-.president-right{
-    float:right;
-    width:60%;
 }
 
 .clearfix:after {
@@ -99,3 +100,24 @@ table{
   .last-wrapper{
       margin-bottom:160px;
   }
+
+  .ct-series-a .ct-slice-pie {
+    fill: #1c2938;
+    stroke: white;
+    stroke-width: 6px;
+  }
+
+  .ct-series-b {
+    fill: #cd3f3e;
+  }
+
+  .ct-label {
+    fill: white;
+    font-size: 1rem !important;
+  }
+
+  .ct-series-a .ct-bar {
+    stroke: #1c2938;
+    stroke-width: 20px;
+  }
+
