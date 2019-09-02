@@ -1,14 +1,13 @@
 @charset "UTF-8";
-.annual-report {
-    text-align: center;
-}
+
 
 h1 {
     text-align: center;
     font-family: DIN alternate, 游ゴシック体;
 }
 p{
-    text-align: center;
+    line-height: 32px;
+    padding-bottom:30px;
 }
 .top-image3 {
     height: auto;
@@ -19,6 +18,7 @@ p{
 .accbox {
     text-align: center;
 }
+
 
 .accbox label:before {
     font-weight: 900;
