@@ -15,22 +15,6 @@ p{
     opacity: .8;
 }
 
-.square_btn{
-    display: block;
-    width: 230px;
-    height: 40px;
-    margin: 60px auto;
-    text-decoration: none;
-    color: #707070;
-    font-size: 16px;
-    font-family: "Yu Gothic";
-    font-weight: bold;
-    background-color: white;
-    border: none;
-    border-radius: 20px;
-    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.16));
-    transition: .4s;
-}
 .accbox {
     text-align: center;
 }

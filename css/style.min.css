@@ -306,7 +306,6 @@ footer {
 .aboutus-text {
     position: relative;
     padding: 0 0 44px;
-    width: 70%;
     margin-left: 0;
     margin-right: auto;
     z-index: 100;
@@ -388,8 +387,6 @@ h2 {
 
 h3 {
     font-size: 50px;
-    margin-top: 40px;
-    margin-bottom: 18px;
 }
 
 

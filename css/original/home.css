@@ -33,6 +33,8 @@
 .aboutus-text {
     position: relative;
     padding: 0 0 44px 0;
+    margin-left: 0;
+    margin-right: auto;
     z-index: 100;
 }
 
@@ -42,6 +44,11 @@
     position: relative;
     background: linear-gradient(90deg, hsl(277, 80%, 20%), hsl(349, 95%, 20%));
     width: 100%;
+}
+@media(max-width: 770px) {
+    .ourvalues-wrapper{
+        height:125%;
+    }
 }
 
 .ourvalues-title,
@@ -61,8 +68,8 @@ h2 {
 
 h3 {
     font-size: 50px;
-    margin-top: 40px;
-    margin-bottom: 18px;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
 }
 
 .ourvalues {
@@ -86,7 +93,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 80px auto 0 auto;
+    margin: 0 auto;
 }
 
 .project-example {
@@ -101,7 +108,7 @@ h3 {
 
 @media(max-width: 770px) {
     .project-example {
-        margin: 0 20px 40px 20px;
+        margin: 20px;
     }
     h1 {
         font-size: 25px;
@@ -110,7 +117,7 @@ h3 {
 
 @media(min-width:770px) {
     .project-example {
-        margin: 0 20px 40px 20px;
+        margin: 20px;
     }
     h1 {
         font-size: 35px;
@@ -207,7 +214,11 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 20px;
+}
+
+.partners-discription {
+    text-align: center;
 }
 
 .partner-card {
@@ -230,6 +241,10 @@ h3 {
 /*ContactのCSS*/
 .contact-wrapper {
     position: relative;
+}
+
+.header-without-pulse{
+    padding-bottom: 1em;
 }
 
 .contact-form {
@@ -290,13 +305,12 @@ input[type=email] {
 }
 
 .partners-p, .contact-p {
-    margin: 20px 0 0 0;
     text-align: center;
 }
 
 @media(max-width:770px) {
     .project-example {
-        margin: 0 20px 40px 20px;
+        margin: 20px;
     }
     h2 {
         font-size: 25px;
@@ -308,7 +322,7 @@ input[type=email] {
 
 @media(min-width:770px) {
     .project-example {
-        margin: 0 20px 40px 20px;
+        margin: 20px;
     }
     h2 {
         font-size: 35px;
