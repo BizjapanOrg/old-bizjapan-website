@@ -33,6 +33,9 @@ h2 {
     h2 {
         font-size: 25px;
     }
+    .whatisaproject-wrapper{
+        height:125%;
+    }
 }
 
 @media(min-width:770px) {
@@ -42,8 +45,8 @@ h2 {
     h2 {
         font-size: 35px;
     }
-}
 
+}
 .project-image {
     width: 100%;
     object-fit: cover;
@@ -230,6 +233,7 @@ figure:hover figcaption {
 
 .pastprojects-wrapper {
     background-color: #f5f5f5;
+    padding-top:7.81%;
 }
 
 .project-modal-wrapper {
