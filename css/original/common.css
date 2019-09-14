@@ -45,6 +45,7 @@ body {
 }
 
 .main {
+    width:100%;
     margin-top: 60px;
     overflow: hidden;
 }
@@ -96,7 +97,7 @@ header .logo {
     font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
     font-size: 16px;
     color: #4B4B4B;
-    padding: 0.1em 1em;
+    padding: 0.1em 0.5em;
     border-radius: 5px;
     transition: .4s;
     color: #4b4b4b;
@@ -125,19 +126,14 @@ header a {
     transform: translateY(-100%);
 }
 
-
-/* 以下Main中のもの */
-.main {
-    overflow: hidden;
-    margin-top: 60px;
-}
-
 .wrapper{
     min-height: 100%;
     height: auto;
     width:100%;
     position: relative;
+    display: table;
 }
+
 
 .content-wrapper,
 .content-wrapper-top,
@@ -147,11 +143,6 @@ header a {
 .title-big {
     margin-right: auto;
     margin-left: auto;
-}
-
-.top-image {
-    width: 100%;
-    height: auto;
 }
 
 .content-wrapper {
@@ -165,12 +156,8 @@ header a {
 .content-wrapper-top {
     box-sizing: border-box;
     min-width: 260px;
-    width: 65%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .content-wrapper-2 {
@@ -178,13 +165,6 @@ header a {
     width: 42%;
     padding: 7.81% 0;
     margin: auto;
-}
-
-.text {
-    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-    color: #4B4B4B;
-    width: 100%;
-    line-height: 26px;
 }
 
 .copyright,
@@ -326,7 +306,6 @@ header a {
     .title {
         font-size: 25px;
     }
-    .know-more-tag,
     .text {
         font-size: 12px;
     }
@@ -374,10 +353,6 @@ header a {
 
 
 /* 以下Main中のもの */
-
-.main {
-    margin-top: 60px;
-}
 
 .top-image {
     width: 100%;
@@ -434,12 +409,17 @@ header a {
 }
 
 .text {
-    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "Helvetica", "Arial", "sans-serif";
     color: #4B4B4B;
     width: 100%;
     line-height: 26px;
     display: block;
     margin: auto;
+}
+
+.text-wrapper{
+    width:65%;
+    margin-bottom: 60px;
 }
 
 .title {
@@ -563,11 +543,6 @@ footer .logo {
   margin:auto;
 }
 
-a.anchor{
-  display: block;
-  padding-top: 70px;
-  margin-top: -70px;
-}
 @media(max-width:770px){
     .nav-footer{
         padding-left:40px;
@@ -625,8 +600,7 @@ a.anchor{
 
 a.anchor {
     display: block;
-    padding-top: 70px;
-    margin-top: -70px;
+    margin-top: 60px;
 }
 
 .project-image {

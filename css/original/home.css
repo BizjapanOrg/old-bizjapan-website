@@ -30,25 +30,12 @@
     background-color: #FFFFFF;
 }
 
-.aboutus-text {
-    position: relative;
-    padding: 0 0 44px 0;
-    margin-left: 0;
-    margin-right: auto;
-    z-index: 100;
-}
-
 /* Our ValuesのCSS */
 
 .ourvalues-wrapper {
     position: relative;
     background: linear-gradient(90deg, hsl(277, 80%, 20%), hsl(349, 95%, 20%));
     width: 100%;
-}
-@media(max-width: 770px) {
-    .ourvalues-wrapper{
-        height:125%;
-    }
 }
 
 .ourvalues-title,
