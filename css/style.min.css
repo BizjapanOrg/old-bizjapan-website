@@ -297,14 +297,6 @@ footer {
     width: 100%;
 }
 
-.aboutus-text {
-    position: relative;
-    padding: 0 0 44px;
-    margin-left: 0;
-    margin-right: auto;
-    z-index: 100;
-}
-
 #takuno,
 #takuno-mobile {
     display: none;

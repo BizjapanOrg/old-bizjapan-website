@@ -131,6 +131,7 @@ header a {
     height: auto;
     width:100%;
     position: relative;
+    display: table;
 }
 
 
@@ -155,12 +156,8 @@ header a {
 .content-wrapper-top {
     box-sizing: border-box;
     min-width: 260px;
-    width: 65%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .content-wrapper-2 {
@@ -168,13 +165,6 @@ header a {
     width: 42%;
     padding: 7.81% 0;
     margin: auto;
-}
-
-.text {
-    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
-    color: #4B4B4B;
-    width: 100%;
-    line-height: 26px;
 }
 
 .copyright,
@@ -419,12 +409,17 @@ header a {
 }
 
 .text {
-    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "Helvetica", "Arial", "sans-serif";
     color: #4B4B4B;
     width: 100%;
     line-height: 26px;
     display: block;
     margin: auto;
+}
+
+.text-wrapper{
+    width:65%;
+    margin-bottom: 60px;
 }
 
 .title {
@@ -548,11 +543,6 @@ footer .logo {
   margin:auto;
 }
 
-a.anchor{
-  display: block;
-  padding-top: 70px;
-  margin-top: -70px;
-}
 @media(max-width:770px){
     .nav-footer{
         padding-left:40px;
@@ -610,8 +600,7 @@ a.anchor{
 
 a.anchor {
     display: block;
-    padding-top: 70px;
-    margin-top: -70px;
+    margin-top: 60px;
 }
 
 .project-image {
