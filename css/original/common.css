@@ -97,7 +97,7 @@ header .logo {
     font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
     font-size: 16px;
     color: #4B4B4B;
-    padding: 0.1em 1em;
+    padding: 0.1em 0.5em;
     border-radius: 5px;
     transition: .4s;
     color: #4b4b4b;
@@ -316,7 +316,6 @@ header a {
     .title {
         font-size: 25px;
     }
-    .know-more-tag,
     .text {
         font-size: 12px;
     }
