@@ -45,6 +45,7 @@ body {
 }
 
 .main {
+    width:100%;
     margin-top: 60px;
     overflow: hidden;
 }
@@ -125,19 +126,13 @@ header a {
     transform: translateY(-100%);
 }
 
-
-/* 以下Main中のもの */
-.main {
-    overflow: hidden;
-    margin-top: 60px;
-}
-
 .wrapper{
     min-height: 100%;
     height: auto;
     width:100%;
     position: relative;
 }
+
 
 .content-wrapper,
 .content-wrapper-top,
@@ -147,11 +142,6 @@ header a {
 .title-big {
     margin-right: auto;
     margin-left: auto;
-}
-
-.top-image {
-    width: 100%;
-    height: auto;
 }
 
 .content-wrapper {
@@ -374,10 +364,6 @@ header a {
 
 
 /* 以下Main中のもの */
-
-.main {
-    margin-top: 60px;
-}
 
 .top-image {
     width: 100%;

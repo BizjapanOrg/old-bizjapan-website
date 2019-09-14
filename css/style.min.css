@@ -209,11 +209,6 @@ header a {
     transform: translateY(-100%);
 }
 
-.main {
-    overflow: hidden;
-    margin-top: 60px;
-}
-
 .content-wrapper,
 .content-wrapper-top,
 .pulse,
@@ -903,9 +898,6 @@ figure:hover figcaption {
     padding-top: 90px;
     padding-left: 36px;
     color: #73abff;
-}
-.pastprojects-wrapper {
-    background-color: #f5f5f5;
 }
 .project-modal-wrapper {
     top: 0;
