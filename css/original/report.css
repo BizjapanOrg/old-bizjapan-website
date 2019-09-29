@@ -7,8 +7,8 @@ h1 {
 }
 p{
     line-height: 32px;
-    padding-bottom:30px;
 }
+
 .top-image3 {
     height: auto;
     width:100%;
@@ -18,7 +18,17 @@ p{
 .accbox {
     text-align: center;
 }
-
+.past-report{
+    float:left;
+    display:flex;
+    text-align: center;
+}
+.past-report li{
+    list-style: none;
+}
+.past-report ul{
+    margin-top:0;
+}
 
 .accbox label:before {
     font-weight: 900;
@@ -40,6 +50,7 @@ p{
     overflow: hidden;
     opacity: 0;
     transition: 0.8s;
+    display:inline-block;
 }
 
 .cssacc:checked+label+.accshow {
