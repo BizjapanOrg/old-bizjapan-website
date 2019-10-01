@@ -18,11 +18,16 @@ p{
 .accbox {
     text-align: center;
 }
-.past-report{
-    float:left;
-    display:flex;
-    text-align: center;
+.last-wrapper{
+    margin-bottom:160px;
 }
+.past-report{
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom:0;
+}
+
 .past-report li{
     list-style: none;
 }
@@ -52,6 +57,22 @@ p{
     transition: 0.8s;
     display:inline-block;
 }
+table{
+    width: 100%;
+    border-spacing: 0;
+  }
+  
+  table th{
+    border-bottom: solid 2px #fb5144;
+    padding: 10px 0;
+  }
+  
+  table td{
+    border-bottom: solid 2px #ddd;
+    text-align: center;
+    padding: 10px 0;
+  }
+
 
 .cssacc:checked+label+.accshow {
     height: auto;
@@ -61,5 +82,9 @@ p{
 
 .cssacc:checked+label:before {
     content: '\f106';
+}
 
+.report_icon{
+    height:50px;
+}
 
