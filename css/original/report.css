@@ -27,6 +27,9 @@ p{
     margin-top: 120px;
     margin-bottom:0;
 }
+.report-explanation{
+    margin-bottom:30px;
+}
 
 .past-report li{
     list-style: none;
