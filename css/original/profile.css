@@ -124,3 +124,9 @@ table td {
   stroke: #1c2938;
   stroke-width: 20px;
 }
+
+@media (max-width: 600px) {
+  .ct-label {
+    font-size: 0.5rem !important;
+  }
+}
