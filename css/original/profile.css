@@ -25,9 +25,6 @@ h3 {
   h1 {
     font-size: 16px;
   }
-  .ct-label {
-    font-size: 0.5rem !important;
-  }
   .chart {
     width: 90%;
     margin: 40px auto;
@@ -56,10 +53,8 @@ h3 {
   font-family: '游明朝', 'YuMincho', 'ヒラギノ明朝 ProN W3',
     'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
 }
-@media {
-  .president-signature {
-    font-size: 0.8rem;
-  }
+.president-signature {
+  font-size: 0.8rem;
 }
 
 .annual-report {
@@ -110,11 +105,6 @@ table td {
 
 .ct-series-b {
   fill: #cd3f3e;
-}
-
-.ct-label {
-  fill: white;
-  font-size: 0.7rem !important;
 }
 
 .ct-series-a .ct-bar {
