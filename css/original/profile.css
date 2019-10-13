@@ -1,130 +1,130 @@
 /* Profile */
-h3{ 
-    text-align:center;
-    font-size:16px;
+h3 {
+  text-align: center;
+  font-size: 16px;
+  font-family: DIN alternate, 游ゴシック体;
 }
-.number{
-    margin:auto;
-    width:50%;
-    min-height: 400px;
+.number {
+  margin: auto;
+  width: 50%;
+  min-height: 400px;
 }
 .ct-label {
-    font-size: .8rem !important;
-    fill:black;
+  font-size: 0.8rem !important;
+  fill: black;
 }
-.chart{
-    width:75%;
+.chart {
+  width: 75%;
+  margin: 40px auto;
+}
+.basic-data {
+  padding: 70px 0 30px 0;
+}
+
+@media (max-width: 1000px) {
+  h3 {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .ct-label {
+    font-size: 0.5rem !important;
+  }
+  .chart {
+    width: 90%;
     margin: 40px auto;
-}
-.basic-data{
-    padding: 70px 0 30px 0;
+  }
 }
 
-
-@media(max-width:1000px){
-    h3{
-        font-size:12px;
-    }
-    h1{
-        font-size:20px;
-    }
-    .ct-label{
-        font-size:0.5rem !important;
-    }
-    .chart{
-        width:90%;
-        margin: 40px auto;
-    }
-    
+.content-box {
+  padding-top: 60px;
+  position: relative;
 }
 
-.content-box{
-    padding-top:60px;
-    position:relative;
-}
-
-.president-hero{
-    padding-bottom: 40px;
-    width:100%;
-    text-align: center;
+.president-hero {
+  padding-bottom: 40px;
+  width: 100%;
+  text-align: center;
 }
 
 .president-hero img {
-    width:100%;
+  width: 100%;
 }
 
-.president-signature{
-    font-weight: 550;
-    font-size: 1.2rem;
-    text-align: right;
-    font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
+.president-signature {
+  font-weight: 550;
+  font-size: 1.2rem;
+  text-align: right;
+  font-family: '游明朝', 'YuMincho', 'ヒラギノ明朝 ProN W3',
+    'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
 }
-@media{
-    .president-signature{
-        font-size:0.8rem;
-    }
-}
-
-.annual-report{
-    text-align: center;
+@media {
+  .president-signature {
+    font-size: 0.8rem;
+  }
 }
 
-.profile-wrapper{
-    padding:120px 0 40px 0;
+.annual-report {
+  text-align: center;
 }
 
-.profile-box{
-    padding:40px 0;
+.profile-wrapper {
+  padding: 120px 0 40px 0;
 }
 
-.profile-text{
-    margin-bottom:40px;
+.profile-box {
+  padding: 40px 0;
+}
+
+.profile-text {
+  margin-bottom: 40px;
 }
 
 .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    height: 0;
-    visibility: hidden;
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
 }
 
-table{
-    width: 100%;
-    border-spacing: 0;
-  }
-  
-  table th{
-    border-bottom: solid 2px #fb5144;
-    padding: 10px 0;
-  }
-  
-  table td{
-    border-bottom: solid 2px #ddd;
-    text-align: center;
-    padding: 10px 0;
-  }
+table {
+  width: 100%;
+  border-spacing: 0;
+}
 
-  .last-wrapper{
-      margin-bottom:160px;
-  }
+table th {
+  border-bottom: solid 2px #fb5144;
+  padding: 10px 0;
+}
 
-  .ct-series-a .ct-slice-pie {
-    fill: #1c2938;
-    stroke: white;
-    stroke-width: 6px;
-  }
+table td {
+  border-bottom: solid 2px #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
 
-  .ct-series-b {
-    fill: #cd3f3e;
-  }
+.last-wrapper {
+  margin-bottom: 160px;
+}
 
-  .ct-label {
-    fill: white;
-    font-size: 0.7rem !important;
-  }
+.ct-series-a .ct-slice-pie {
+  fill: #1c2938;
+  stroke: white;
+  stroke-width: 6px;
+}
 
-  .ct-series-a .ct-bar {
-    stroke: #1c2938;
-    stroke-width: 20px;
-  }
+.ct-series-b {
+  fill: #cd3f3e;
+}
+
+.ct-label {
+  fill: white;
+  font-size: 0.7rem !important;
+}
+
+.ct-series-a .ct-bar {
+  stroke: #1c2938;
+  stroke-width: 20px;
+}
