@@ -29,37 +29,51 @@ h3{
         font-size:20px;
     }
     .ct-label{
-        font-size:0.5rem !important;
+        font-size:1.5rem !important;
     }
     .chart{
-        width:90%;
+        width:100%;
         margin: 40px auto;
     }
     
 }
-
+.graph{
+    text-align: center;
+    width: 75%;
+    height: auto;
+    display: inline-block;
+    margin:30px 0 ;
+}
+@media(max-width:1000px){
+    .graph{
+        width: 90%;
+    }
+}
 .content-box{
     padding-top:60px;
     position:relative;
+    text-align: center;
 }
 
 .president-hero{
     padding-bottom: 40px;
     width:100%;
-    text-align: center;
 }
 
 .president-hero img {
     width:100%;
 }
-
+.president-text{
+    text-align: left;
+    margin:12px 0;
+}
 .president-signature{
     font-weight: 550;
     font-size: 1.2rem;
     text-align: right;
     font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
 }
-@media{
+@media(max-width:770px){
     .president-signature{
         font-size:0.8rem;
     }
@@ -79,6 +93,7 @@ h3{
 
 .profile-text{
     margin-bottom:40px;
+    text-align: left;
 }
 
 .clearfix:after {
@@ -121,7 +136,7 @@ table{
 
   .ct-label {
     fill: white;
-    font-size: 0.7rem !important;
+    font-size: 1.3rem !important;
   }
 
   .ct-series-a .ct-bar {

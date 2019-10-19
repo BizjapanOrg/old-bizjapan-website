@@ -102,6 +102,11 @@ header .logo {
     transition: .4s;
     color: #4b4b4b;
 }
+@media(max-width:770px){
+    .know-more-tag {
+        font-size:12px;
+    }
+}
 
 .know-more-tag:hover {
     background: #9E9E9E;

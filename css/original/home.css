@@ -296,9 +296,6 @@ input[type=email] {
     background: rgba(255, 255, 255, 0);
 }
 
-.partners-p, .contact-p {
-    text-align: center;
-}
 
 @media(max-width:770px) {
     .project-example {
