@@ -29,7 +29,9 @@ p{
 .report-explanation{
     margin-bottom:30px;
 }
-
+.past-description{
+    text-align: center;
+}
 .past-report li{
     list-style: none;
 }
