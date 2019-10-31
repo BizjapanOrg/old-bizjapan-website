@@ -23,14 +23,15 @@ p{
 }
 .past-report{
     position: relative;
-    text-align: center;
     margin-top: 120px;
     margin-bottom:0;
 }
 .report-explanation{
     margin-bottom:30px;
 }
-
+.past-description{
+    text-align: center;
+}
 .past-report li{
     list-style: none;
 }

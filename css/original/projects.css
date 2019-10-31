@@ -211,7 +211,7 @@ figure:hover figcaption {
     text-align: left;
     position: absolute;
     color: #707070;
-    padding: 4px 20px;
+    padding: 0 20px;
     margin-top: 0;
     font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }

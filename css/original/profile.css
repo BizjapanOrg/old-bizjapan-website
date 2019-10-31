@@ -21,40 +21,64 @@ h3 {
   padding: 70px 0 30px 0;
 }
 
-@media (max-width: 1000px) {
-  h1 {
-    font-size: 16px;
-  }
-  .chart {
-    width: 90%;
-    margin: 40px auto;
-  }
+
+@media(max-width:1000px){
+    h3{
+        font-size:12px;
+    }
+    h1{
+        font-size:20px;
+    }
+    .ct-label{
+        font-size:1.5rem !important;
+    }
+    .chart{
+        width:100%;
+        margin: 40px auto;
+    }
+    
+}
+.graph{
+    text-align: center;
+    width: 75%;
+    height: auto;
+    display: inline-block;
+    margin:30px 0 ;
+}
+@media(max-width:1000px){
+    .graph{
+        width: 90%;
+    }
+}
+.content-box{
+    padding-top:60px;
+    position:relative;
+    text-align: center;
 }
 
-.content-box {
-  padding-top: 60px;
-  position: relative;
-}
-
-.president-hero {
-  padding-bottom: 40px;
-  width: 100%;
-  text-align: center;
+.president-hero{
+    padding-bottom: 40px;
+    width:100%;
 }
 
 .president-hero img {
-  width: 100%;
+    width:100%;
 }
 
-.president-signature {
-  font-weight: 550;
-  font-size: 1.2rem;
-  text-align: right;
-  font-family: '游明朝', 'YuMincho', 'ヒラギノ明朝 ProN W3',
-    'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+.president-text{
+    text-align: left;
+    margin:12px 0;
 }
-.president-signature {
-  font-size: 0.8rem;
+.president-signature{
+    font-weight: 550;
+    font-size: 1.2rem;
+    text-align: right;
+    font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
+}
+@media(max-width:770px){
+    .president-signature{
+        font-size:0.8rem;
+    }
 }
 
 .annual-report {
@@ -69,8 +93,9 @@ h3 {
   padding: 40px 0;
 }
 
-.profile-text {
-  margin-bottom: 40px;
+.profile-text{
+    margin-bottom:40px;
+    text-align: left;
 }
 
 .clearfix:after {
@@ -103,17 +128,12 @@ table td {
   stroke-width: 6px;
 }
 
-.ct-series-b {
-  fill: #cd3f3e;
-}
-
-.ct-series-a .ct-bar {
-  stroke: #1c2938;
-  stroke-width: 20px;
-}
-
-@media (max-width: 600px) {
   .ct-label {
-    font-size: 0.5rem !important;
+    fill: white;
+    font-size: 1.3rem !important;
   }
-}
+
+  .ct-series-a .ct-bar {
+    stroke: #1c2938;
+    stroke-width: 20px;
+  }
