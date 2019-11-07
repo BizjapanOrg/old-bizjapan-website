@@ -1,23 +1,24 @@
 /* Profile */
-h3{ 
-    text-align:center;
-    font-size:16px;
+h3 {
+  text-align: center;
+  font-size: 24px;
+  font-family: DIN alternate, 游ゴシック体;
 }
-.number{
-    margin:auto;
-    width:50%;
-    min-height: 400px;
+.number {
+  margin: auto;
+  width: 50%;
+  min-height: 400px;
 }
 .ct-label {
-    font-size: .8rem !important;
-    fill:black;
+  font-size: 0.8rem !important;
+  fill: black;
 }
-.chart{
-    width:75%;
-    margin: 40px auto;
+.chart {
+  width: 75%;
+  margin: 40px auto;
 }
-.basic-data{
-    padding: 70px 0 30px 0;
+.basic-data {
+  padding: 70px 0 30px 0;
 }
 
 
@@ -29,95 +30,110 @@ h3{
         font-size:20px;
     }
     .ct-label{
-        font-size:0.5rem !important;
+        font-size:1.5rem !important;
+    }
+    .chart{
+        width:100%;
+        margin: 40px auto;
     }
     
 }
-
+.graph{
+    text-align: center;
+    width: 75%;
+    height: auto;
+    display: inline-block;
+    margin:30px 0 ;
+}
+@media(max-width:1000px){
+    .graph{
+        width: 90%;
+    }
+}
 .content-box{
     padding-top:60px;
     position:relative;
+    text-align: center;
 }
 
 .president-hero{
     padding-bottom: 40px;
     width:100%;
-    text-align: center;
 }
 
 .president-hero img {
     width:100%;
-    border-radius: 20px 20px;
 }
 
+.president-text{
+    text-align: left;
+    margin:12px 0;
+}
 .president-signature{
     font-weight: 550;
     font-size: 1.2rem;
     text-align: right;
     font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
 }
-
-.annual-report{
-    text-align: center;
+@media(max-width:770px){
+    .president-signature{
+        font-size:0.9rem;
+    }
 }
 
-.profile-wrapper{
-    padding:120px 0 40px 0;
+.annual-report {
+  text-align: center;
 }
 
-.profile-box{
-    padding:40px 0;
+.profile-wrapper {
+  padding: 120px 0 40px 0;
+}
+
+.profile-box {
+  padding: 40px 0;
 }
 
 .profile-text{
     margin-bottom:40px;
+    text-align: left;
 }
 
 .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    height: 0;
-    visibility: hidden;
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
 }
 
-table{
-    width: 100%;
-    border-spacing: 0;
-  }
-  
-  table th{
-    border-bottom: solid 2px #fb5144;
-    padding: 10px 0;
-  }
-  
-  table td{
-    border-bottom: solid 2px #ddd;
-    text-align: center;
-    padding: 10px 0;
-  }
+table {
+  width: 100%;
+  border-spacing: 0;
+}
 
-  .last-wrapper{
-      margin-bottom:160px;
-  }
+table th {
+  border-bottom: solid 2px #fb5144;
+  padding: 10px 0;
+}
 
-  .ct-series-a .ct-slice-pie {
-    fill: #1c2938;
-    stroke: white;
-    stroke-width: 6px;
-  }
+table td {
+  border-bottom: solid 2px #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
 
-  .ct-series-b {
-    fill: #cd3f3e;
-  }
+.ct-series-a .ct-slice-pie {
+  fill: #1c2938;
+  stroke: white;
+  stroke-width: 6px;
+}
 
   .ct-label {
     fill: white;
-    font-size: 1rem !important;
+    font-size: 1.3rem !important;
   }
 
   .ct-series-a .ct-bar {
     stroke: #1c2938;
     stroke-width: 20px;
   }
-
