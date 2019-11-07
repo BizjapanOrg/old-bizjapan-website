@@ -195,6 +195,12 @@ h3 {
 .cssacc:checked + label:before {
   content: '\f106';
 }
+.partners-wrapper {
+    
+  height: auto;
+  width: 100%;
+  position: relative;
+}
 
 .partners-container {
   display: flex;
@@ -229,6 +235,7 @@ h3 {
 /*ContactのCSS*/
 .contact-wrapper {
   position: relative;
+  margin:0 30px 160px 30px;
 }
 
 .header-without-pulse {

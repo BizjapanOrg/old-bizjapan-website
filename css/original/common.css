@@ -399,6 +399,10 @@ a.anchor{
     display:block;
     padding-top:70px;
     margin-top:-70px;
+
+}
+.last-wrapper{
+    margin-bottom:160px;
 }
 @media(max-width:815px) {
     .content-wrapper {
@@ -629,9 +633,3 @@ a.anchor {
     display: block;
 }
 
-.partners-wrapper{
-    
-    height: auto;
-    width: 100%;
-    position: relative;
-}
