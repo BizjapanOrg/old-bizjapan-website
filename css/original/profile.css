@@ -9,10 +9,7 @@ h3 {
   width: 50%;
   min-height: 400px;
 }
-.ct-label {
-  font-size: 0.8rem !important;
-  fill: black;
-}
+
 .chart {
   width: 75%;
   margin: 40px auto;
@@ -28,9 +25,6 @@ h3 {
     }
     h1{
         font-size:20px;
-    }
-    .ct-label{
-        font-size:1.5rem !important;
     }
     .chart{
         width:100%;
@@ -98,13 +92,6 @@ h3 {
     text-align: left;
 }
 
-.clearfix:after {
-  content: '.';
-  display: block;
-  clear: both;
-  height: 0;
-  visibility: hidden;
-}
 
 table {
   width: 100%;
@@ -122,18 +109,4 @@ table td {
   padding: 10px 0;
 }
 
-.ct-series-a .ct-slice-pie {
-  fill: #1c2938;
-  stroke: white;
-  stroke-width: 6px;
-}
 
-  .ct-label {
-    fill: white;
-    font-size: 1.3rem !important;
-  }
-
-  .ct-series-a .ct-bar {
-    stroke: #1c2938;
-    stroke-width: 20px;
-  }
